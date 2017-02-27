@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="KNIME 3.3 with all plugins" sequenceNumber="1487762076">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
+<unit id="org.knime.product.desktop" version="0.0.0"/>
+<unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.reporting.designer.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.mongodb.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.pmml.translation.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.jfreechart.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.datageneration.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.chem.tools.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.widedata.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.semanticweb.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.network.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.parso.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.textprocessing.dl4j.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.webservice.client.ppilot.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.neighborgram.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.perl.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.birt.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.md.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.network.distmatrix.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.jython.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.lucene.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.rest.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.webservice.client.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.r.bin.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.webanalytics.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.textprocessing.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.python.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.r.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.socialmedia.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.pmml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.pmml2.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
+<repository location="https://update.knime.org/analytics-platform/3.3/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.erlwood.features.cheminformatics.base.feature.group" version="0.0.0"/>
+<unit id="de.bund.bfr.knime.esri.feature.feature.group" version="0.0.0"/>
+<unit id="de.openms.feature.feature.group" version="0.0.0"/>
+<unit id="ws.palladian.nodes.feature.feature.group" version="0.0.0"/>
+<unit id="org.lhasalimited.knime.public.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpicbg.tds.knime.hcstools.feature.feature.group" version="0.0.0"/>
+<unit id="org.openscience.cdk.knime.feature.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.feature.feature.group" version="0.0.0"/>
+<unit id="org.lhasalimited.knime.metabolism.feature.feature.group" version="0.0.0"/>
+<unit id="org.erlwood.features.core.base.feature.group" version="0.0.0"/>
+<unit id="com.vernalis.knime.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpicbg.tds.knime.scripting.r.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpicbg.tds.knime.scripting.groovy.feature.feature.group" version="0.0.0"/>
+<unit id="org.chesmapper.knime.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpicbg.tds.knime.scripting.matlab.feature.feature.group" version="0.0.0"/>
+<unit id="org.rdkit.knime.wizards.feature.feature.group" version="0.0.0"/>
+<unit id="org.dymatrix.upliftmodeling.feature.feature.group" version="0.0.0"/>
+<unit id="org.rdkit.knime.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpc.pia.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpicbg.tds.knime.scripting.python.feature.feature.group" version="0.0.0"/>
+<unit id="de.seqan.seqanngstoolbox.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.omero.feature.feature.group" version="0.0.0"/>
+<unit id="org.pasteur.pf2.ngs.feature.feature.group" version="0.0.0"/>
+<unit id="uk.ac.ebi.knime.feature.feature.group" version="0.0.0"/>
+<repository location="http://update.knime.org/community-contributions/trusted/3.3"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="de.nbi.cibi.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpicbg.knime.ip.clearvolume.feature.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.knimepython.feature.feature.group" version="0.0.0"/>
+<unit id="com.bluelone.contrib.knime.mqueue.feature.feature.group" version="0.0.0"/>
+<unit id="es.unican.knime.stark.feature.feature.group" version="0.0.0"/>
+<unit id="com.novamechanics.feature.feature.group" version="0.0.0"/>
+<unit id="com.ggasoftware.indigo.knime.feature.feature.group" version="0.0.0"/>
+<unit id="com.mind_era.knime_rapidminer.knime.feature.feature.group" version="0.0.0"/>
+<unit id="com.epam.indigo.knime.feature.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.dl4j.feature.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.cellprofiler.feature.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.tess4j.feature.feature.group" version="0.0.0"/>
+<unit id="de.mpc.pia.feature.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.imagej.feature.feature.group" version="0.0.0"/>
+<unit id="de.uni_heidelberg.ifi.pvs.feature.feature.group" version="0.0.0"/>
+<unit id="ch.systemsx.cisd.openbis.knime.feature.feature.group" version="0.0.0"/>
+<unit id="org.knime.knip.ilastik.feature.feature.group" version="0.0.0"/>
+<unit id="com.eadmet.knime.feature.feature.group" version="0.0.0"/>
+<unit id="de.euopenscreen.feature.feature.group" version="0.0.0"/>
+<repository location="http://update.knime.org/community-contributions/3.3"/>
+</location>
+</locations>
+</target>
