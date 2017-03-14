@@ -42,6 +42,7 @@ While the target platform definitions enable you to install all KNIME Analytics 
 
 ### Notes
 * Eclipse might show an error "No API Baseline set". You can safely set the error level at ``Window -> Preferences -> Plug-in Development -> API Baselines`` to ignore.
+* Use ``git lfs clone` in favor of ``git clone`` to clone our repositories for faster cloning.
 
 ## Links
 * [JavaDoc](https://tech.knime.org/javadoc-api)
