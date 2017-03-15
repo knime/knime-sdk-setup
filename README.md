@@ -18,7 +18,7 @@ release installations due to changed and/or missing API.
 
 Some projects auto-generate code using XML Beans. Therefore you must have the project _org.apache.xmlbeans_ from this repository in your workspace.
 
-###Git LFS
+### Git LFS
 We make use of [Git LFS](https://git-lfs.github.com/), therefore you must have the corresponding program installed and enabled on your system in order to properly
 clone our repositories.
 
