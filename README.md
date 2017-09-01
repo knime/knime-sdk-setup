@@ -1,4 +1,4 @@
-# ![Image](https://www.knime.org/files/knime_logo_github_40x40.png) KNIMEÂ® Analytics Platform - SDK Setup
+# ![Image](https://www.knime.org/files/knime_logo_github_40x40.png) KNIME® Analytics Platform - SDK Setup
 
 KNIME Analytics Platform is the leading open solution for data-driven innovation, helping you discover the potential hidden in your data, mine for fresh insights, or predict new futures. Our enterprise-grade, open source platform is fast to deploy, easy to scale, and intuitive to learn.
 
@@ -45,10 +45,14 @@ While the target platform definitions enable you to install all KNIME Analytics 
 * Use ``git lfs clone`` in favor of ``git clone`` to clone our repositories for faster cloning.
 * In case you experience compile errors such as ``The type org.dmg.pmml.* cannot be resolved`` or ``The import org.dmg.pmml.* cannot be resolved`` please close or remove the project ``org.knime.core.pmml``. This project contains auto-generated classes only and is already part of the target platform.
 
+## Nightly Builds
+Nightly Builds are available [here]( https://www.knime.com/form/nightly-build); the relevant forum section can be found [here](https://www.knime.com/forum/nightly-build).
+
+
 ## Links
 * [JavaDoc](https://tech.knime.org/javadoc-api)
 * [Developer Guide](https://tech.knime.org/developer-guide)
-* [Noding Guidlines](https://tech.knime.org/files/development/noding_guidelines.pdf)
+* [Noding Guidelines](https://tech.knime.org/files/development/noding_guidelines.pdf)
 * [Developer FAQ](https://tech.knime.org/developer/faq)
 * [Example Plug-in](https://tech.knime.org/developer/example/node-model)
 
