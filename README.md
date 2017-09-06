@@ -1,4 +1,4 @@
-# ![Image](https://www.knime.org/files/knime_logo_github_40x40.png) KNIME® Analytics Platform - SDK Setup
+# ![Image](https://www.knime.com/files/knime_logo_github_40x40_4layers.png) KNIME® Analytics Platform - SDK Setup
 
 KNIME Analytics Platform is the leading open solution for data-driven innovation, helping you discover the potential hidden in your data, mine for fresh insights, or predict new futures. Our enterprise-grade, open source platform is fast to deploy, easy to scale, and intuitive to learn.
 
