@@ -5,7 +5,7 @@ Bundle-SymbolicName: org.knime.example.node; singleton:=true
 Bundle-Version: 1.0.0
 Bundle-ClassPath: myexamplenode.jar
 Bundle-Activator: org.knime.example.node.MyExampleNodeNodePlugin
-Bundle-Vendor: KNIME.com
+Bundle-Vendor: KNIME AG, Zurich, Switzerland
 Require-Bundle: org.eclipse.core.runtime,
  org.knime.workbench.core,
  org.knime.workbench.repository,

@@ -6,14 +6,14 @@ import org.knime.core.node.defaultnodesettings.SettingsModelIntegerBounded;
 
 /**
  * <code>NodeDialog</code> for the "MyExampleNode" Node.
- * This is an example node provided by KNIME.com.
+ * This is an example node provided by KNIME.
  *
  * This node dialog derives from {@link DefaultNodeSettingsPane} which allows
  * creation of a simple dialog with standard components. If you need a more 
  * complex dialog please derive directly from 
  * {@link org.knime.core.node.NodeDialogPane}.
  * 
- * @author KNIME.com
+ * @author KNIME AG, Zurich, Switzerland
  */
 public class MyExampleNodeNodeDialog extends DefaultNodeSettingsPane {
 

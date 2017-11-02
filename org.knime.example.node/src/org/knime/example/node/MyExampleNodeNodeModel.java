@@ -28,9 +28,9 @@ import org.knime.core.node.NodeSettingsWO;
 
 /**
  * This is the model implementation of MyExampleNode.
- * This is an example node provided by KNIME.com.
+ * This is an example node provided by KNIME.
  *
- * @author KNIME.com
+ * @author KNIME AG, Zurich, Switzerland
  */
 public class MyExampleNodeNodeModel extends NodeModel {
     

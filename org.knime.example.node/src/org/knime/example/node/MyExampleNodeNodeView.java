@@ -4,9 +4,9 @@ import org.knime.core.node.NodeView;
 
 /**
  * <code>NodeView</code> for the "MyExampleNode" Node.
- * This is an example node provided by KNIME.com.
+ * This is an example node provided by KNIME.
  *
- * @author KNIME.com
+ * @author KNIME AG, Zurich, Switzerland
  */
 public class MyExampleNodeNodeView extends NodeView<MyExampleNodeNodeModel> {
 
