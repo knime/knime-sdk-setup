@@ -27,9 +27,10 @@ clone our repositories.
 * _Third Party Update-Sites:_ If you need additional plug-ins from third party update-sites, you can edit the software sites in the target definitions. For example you can add the update-sites from [Community Contributions Website](https://tech.knime.org/community).
 
 ### Getting Started
-* Download and install [Eclipse 4.6.1](http://www.eclipse.org/downloads/packages/release/Neon/1A). Make sure you are using version 4.6.1 and not 4.6.2 because the latter contains a bug 
-  in the Java compiler, which makes it impossible to compile some KNIME classes.
-* Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site
+* Download and install the latest version of [Eclipse](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you
+  are using a version newer than 4.6.2 because that version contains a bug in the Java compiler, which makes it impossible to compile some KNIME classes.
+  The current versions of eclipse (4.7.x) do not suffer from this bug and are therefore recommended.
+* Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site. If you downloaded the `Eclipse IDE for Eclipse Committers` this step is not necessary, as it comes with this plug-in preinstalled.
 * Clone this repository
 * Import **all** projects ``(File -> Import -> General -> Existing Projects)`` from this repository into your workspace
 * Double-click the target platform definition file ``KNIME.target``, which you will find in the ``org.knime.sdk.setup`` project.
