@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (3.5 release)" sequenceNumber="1512743929">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (3.5 release)" sequenceNumber="1512743930">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
-<unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
-<unit id="com.knime.features.enterprise.server.ws.client.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.birt.chart.osgi.runtime.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.dbdrivers.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
