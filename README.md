@@ -31,11 +31,12 @@ clone our repositories.
   are using a version newer than 4.6.2 because that version contains a bug in the Java compiler, which makes it impossible to compile some KNIME classes.
   The current versions of eclipse (4.7.x) do not suffer from this bug and are therefore recommended.
 * Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site. If you downloaded the `Eclipse IDE for Eclipse Committers` this step is not necessary, as it comes with this plug-in preinstalled.
-* Clone this repository
-* Import **all** projects ``(File -> Import -> General -> Existing Projects)`` from this repository into your workspace
-* Double-click the target platform definition file ``KNIME.target``, which you will find in the ``org.knime.sdk.setup`` project.
-* Now wait until Eclipse has resolved the target platform and then click  __Set as Target Platform__ (upper-right corner)
-* The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
+* Clone this repository to your computer.
+* Import **all** projects ``(File -> Import -> General -> Existing Projects)`` from this repository into your workspace.
+* In the ``org.knime.sdk.setup`` project, you will find several target platform definition files, that define different releases of the KNIME Analytics Platform.
+* Double-click the target platform definition file that matches ``KNIME-AP-X.Y.target``, where X.Y is the release (or nighly) you want to develop against.
+* Now click __Set as Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.
+* The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as an Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
 * The launch configuration uses 2GB of available RAM. If you want to use a different amount, change the value of the ``-Xmx2g`` VM argument in the _Arguments_ tab of the launch configuration.
 
 ## Work with Source of KNIME Analytics Platform Extensions
