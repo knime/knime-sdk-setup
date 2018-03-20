@@ -30,7 +30,7 @@ clone our repositories.
 * Download and install the latest version of [Eclipse](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you
   are using a version newer than 4.6.2 because that version contains a bug in the Java compiler, which makes it impossible to compile some KNIME classes.
   The current versions of eclipse (4.7.x) do not suffer from this bug and are therefore recommended.
-* Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site. If you downloaded the `Eclipse IDE for Eclipse Committers` this step is not necessary, as it comes with this plug-in preinstalled.
+* Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site, you can find it in the __Eclipse Plugin Development Tools__ folder. If you downloaded the `Eclipse IDE for Eclipse Committers` this step is not necessary, as it comes with this plug-in preinstalled.
 * Clone this repository to your computer.
 * Import **all** projects ``(File -> Import -> General -> Existing Projects)`` from this repository into your workspace.
 * In the ``org.knime.sdk.setup`` project, you will find several target platform definition files, that define different releases of the KNIME Analytics Platform.
