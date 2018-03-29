@@ -20,7 +20,8 @@ Some projects auto-generate code using XML Beans. They require you to have the p
 ## Getting Started
 #### 1. Install Git and Git LFS
 Install The Git command line client and Git LFS support:
-* Linux: Git should be part of the standard repositories, Git LFS might miss, get it from [here](https://help.github.com/articles/installing-git-large-file-storage/)
+
+* Linux: Git should be part of the standard repositories, Git LFS might miss, get it from https://help.github.com/articles/installing-git-large-file-storage
 * Windows: https://git-scm.com/download/win and https://git-lfs.github.com/ (use the recommended settings during installation)
 * MacOS X: https://git-scm.com/download/mac and https://git-lfs.github.com/ (use the recommended settings during installation)
 
@@ -36,11 +37,11 @@ Install The Git command line client and Git LFS support:
 * Now click __Set as Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.
 
 #### 3. Configure API Baseline
-* Go to Preferences → Plug-in Development → API Baseline and Add Baseline...
-* Select "A target platform"
-* Select "Release-20XX-YY.target" (which is in the org.knime.sdk.setup project)
+* Go to ``Preferences → Plug-in Development → API Baseline and Add Baseline...``
+* Select ``A target platform``
+* Select ``Release-20XX-YY.target`` (which is in the ``org.knime.sdk.setup`` project)
 * Click Refresh
-* Give the baseline a meaningful name (e.g. "Release-2017-12") and click OK
+* Give the baseline a meaningful name (e.g. ``Release-2017-12``) and click ``OK``
 
 Note: If you are not planning to change the KNIME Analytics Platform API, you do not need to configure it and can instead safely set the error level at ``Window -> Preferences -> Plug-in Development -> API Baselines`` to _Ignore_.
 
