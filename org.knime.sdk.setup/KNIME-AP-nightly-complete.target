@@ -77,6 +77,7 @@
 <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.webanalytics.feature.group" version="0.0.0"/>
+<unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <repository location="http://update.knime.org/analytics-platform/nightly/"/>
 </location>
 </locations>
