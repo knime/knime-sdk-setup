@@ -21,36 +21,36 @@ Some projects auto-generate code using XML Beans. They require you to have the p
 #### 1. Install Git and Git LFS
 Install The Git command line client and Git LFS support:
 
-* Linux: Git should be part of the standard repositories, Git LFS might miss, get it from https://help.github.com/articles/installing-git-large-file-storage
-* Windows: https://git-scm.com/download/win and https://git-lfs.github.com/ (use the recommended settings during installation)
-* MacOS X: https://git-scm.com/download/mac and https://git-lfs.github.com/ (use the recommended settings during installation)
+* Linux: Git should be part of the standard repositories, Git LFS might miss, get it from https://help.github.com/articles/installing-git-large-file-storage/#platform-linux
+* Windows: https://git-scm.com/download/win. Git LFS should be part of the Git installation. If Git LFS is missing, please install it from https://git-lfs.github.com/
+* MacOS X: https://git-scm.com/download/mac and https://git-lfs.github.com/
 
 #### 2. Setup Eclipse
-* Download and install the latest version of [Eclipse](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you
+* Download and install the latest version of [Eclipse for Java](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you
   are using a version newer than 4.6.2 because that version contains a bug in the Java compiler, which makes it impossible to compile some KNIME classes.
   The current versions of eclipse (4.7.x) do not suffer from this bug and are therefore recommended.
-* Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site, you can find it in the __Eclipse Plugin Development Tools__ folder. If you downloaded the `Eclipse IDE for Eclipse Committers` this step is not necessary, as it comes with this plug-in preinstalled.
-* Clone this repository to your computer.
-* Import **all** projects ``(File -> Import -> General -> Existing Projects)`` from this repository into your workspace.
+* Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site, you can find it in the __Eclipse Plugin Development Tools__ folder. If you downloaded the `Eclipse IDE for Eclipse Committers` this step is not necessary, as it comes with this plug-in preinstalled. To install a new plugin in Eclipse, go to ``Help → Install New Software`` and select the ``Eclipse Project Update Site`` from the drop-down menu called ``Work with``.
+* Clone this (_knime-sdk-setup_) repository to your computer.
+* Import **all** projects ``(File → Import → General → Existing Projects)`` from this repository into your workspace.
 * In the ``org.knime.sdk.setup`` project, you will find several target platform definition files, that define different releases of the KNIME Analytics Platform.
 * Double-click the target platform definition file that matches ``KNIME-AP-X.Y.target``, where X.Y is the release (or nighly) you want to develop against.
 * Now click __Set as Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.
 
 #### 3. Configure API Baseline
-* Go to ``Preferences → Plug-in Development → API Baseline and Add Baseline...``
+* Go to ``Window → Preferences → Plug-in Development → API Baseline and Add Baseline...``
 * Select ``A target platform``
-* Select ``Release-20XX-YY.target`` (which is in the ``org.knime.sdk.setup`` project)
+* Select ``KNIME Analytics Platform (3.x release)`` (which is in the ``org.knime.sdk.setup`` project)
 * Click Refresh
-* Give the baseline a meaningful name (e.g. ``Release-2017-12``) and click ``OK``
+* Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (3.x release)``) and click ``OK``
 
-Note: If you are not planning to change the KNIME Analytics Platform API, you do not need to configure it and can instead safely set the error level at ``Window -> Preferences -> Plug-in Development -> API Baselines`` to _Ignore_.
+Note: If you are not planning to change the KNIME Analytics Platform API, you do not need to configure it and can instead safely set the error level at ``Window → Preferences → Plug-in Development → API Baselines`` to _Ignore_.
 
 #### 4. Launch KNIME
-* The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as an Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform.
+* The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as an Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform. (Note: if the launch configuration is missing, ``Right-click`` on ``KNIME Analytics Platform.launch`` and select ``Run As → KNIME Analytics Platform``).
 * The launch configuration uses 2GB of available RAM. If you want to use a different amount, change the value of the ``-Xmx2g`` VM argument in the _Arguments_ tab of the launch configuration.
 
 ## Work with source code of KNIME Analytics Platform
-* If you want to work with the source code of KNIME Analytics Platform or a related extension, simply clone the repository of interest (e.g. from [Bitbucket](http://bitbucket.com/knime)) and import the plug-ins as Java projects into your Eclipse workspace (``File -> Import -> General -> Existing Projects``). 
+* If you want to work with the source code of KNIME Analytics Platform or a related extension, simply clone the repository of interest (e.g. from [Bitbucket](http://bitbucket.com/knime)) and import the plug-ins as Java projects into your Eclipse workspace (``File → Import → General → Existing Projects``). 
 * Projects imported into the workspace take precedence over plug-ins in the target platform.
 * Use ``git lfs clone`` in favor of ``git clone`` to clone our repositories for faster cloning.
 * In case you experience compile errors such as ``The type org.dmg.pmml.* cannot be resolved`` or ``The import org.dmg.pmml.* cannot be resolved`` please close or remove the project ``org.knime.core.pmml``. This project contains auto-generated classes only and is already part of the target platform.
