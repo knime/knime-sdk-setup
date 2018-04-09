@@ -27,9 +27,8 @@ Install The Git command line client and Git LFS support:
 
 #### 2. Setup Eclipse
 * Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you
-  are using a version newer than 4.6.2 because that version contains a bug in the Java compiler, which makes it impossible to compile some KNIME classes.
+  are using at least version 4.6.3 because earlier versions contains a bug in the Java compiler, which makes it impossible to compile some KNIME classes.
   The current versions of eclipse (4.7.x) do not suffer from this bug and are therefore recommended.
-* Optional: Install the __Eclipse Plug-in Development Environment__ plug-in from  __The Eclipse Project Updates__ update-site, you can find it in the __Eclipse Plugin Development Tools__ folder. To install a new plugin in Eclipse, go to ``Help → Install New Software`` and select the ``Eclipse Project Update Site`` from the drop-down menu called ``Work with``. If you downloaded the `Eclipse for RCP and RAP Developers` this step is not necessary, as it comes with this plug-in preinstalled.
 * Clone this (_knime-sdk-setup_) repository to your computer.
 * Import **all** projects ``(File → Import → General → Existing Projects)`` from this repository into your workspace.
 * In the ``org.knime.sdk.setup`` project, you will find several target platform definition files, that define different releases of the KNIME Analytics Platform.
