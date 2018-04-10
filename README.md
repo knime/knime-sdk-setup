@@ -11,9 +11,9 @@ _Please note: We are currently in the process of publishing more of our open-sou
 ## Development Notes
 KNIME Analytics Platform is built on Eclipse, employing its wealth of functionality in a variety of ways. A key concept behind Eclipse is its use of plug-ins, which can be added to an existing installation to provide additional functionality. In order to develop custom functionality to extend KNIME Analytics Platform, you first have to populate your local [target platform](https://wiki.eclipse.org/PDE/Target_Definitions) with all the required dependencies. A target platform defines a set of plug-ins that can be used as dependencies by projects in your workspace. A pre-configured target platform definition for each recent release that contains a minimum set of plug-ins, can be found in the ``KNIME-AP-X.Y.target`` files in the project ``org.knime.sdk.setup``.
 
-The target platform is different for every release, so you must select  the correct branch of ``org.knime.sdk.setup``. E.g. for developing
-nodes that are compatible with the 3.5 release, use the `KNIME-AP-3.5.target` file. If you want to develop against the latest nightly build, use the ``KNIME-AP-nightly.target`` file. However, bear in mind that extensions developed against nightly may not work in
-release installations due to changed and/or missing API.
+The target platform is different for every release, so you must select the correct branch of ``knime-sdk-setup``. For example for developing
+nodes that are compatible with the 3.5 release, checkout the branch ``releases/2017-12`` and select the file ``KNIME-AP-3.5.target``. If you want to develop against the latest nightly build, use the ``KNIME-AP-nightly.target`` from the master branch. However, bear in mind that extensions developed against nightly may not work in
+releases installations due to changed and/or missing API.
 
 Some projects auto-generate code using XML Beans. They require you to have the project _org.apache.xmlbeans_ from this repository in your workspace.
 
