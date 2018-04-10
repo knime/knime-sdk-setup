@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="KNIME Analytics Platform (3.5 release)" sequenceNumber="1512743930">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.birt.chart.osgi.runtime.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.dbdrivers.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.poi.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.json.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.personalproductivity.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
+<repository location="https://update.knime.org/analytics-platform/3.5/"/>
+</location>
+</locations>
+</target>

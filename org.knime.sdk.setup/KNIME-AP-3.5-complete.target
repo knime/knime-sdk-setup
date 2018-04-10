@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="KNIME Analytics Platform (3.5 release) - with all extensions" sequenceNumber="1512743931">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.explorer.sharedspace.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.reporting.designer.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.audio.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.pmml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.pmml.translation.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.pmml2.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.widedata.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.bigdata.connectors.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.bigdata.spark.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.aws.athena.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.aws.redshift.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.azure.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.database.connectors.sqlserver.driver.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.datageneration.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.dl.keras.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.birt.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.chem.tools.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.chromium.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.h2o.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.h2o.mojo.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.jfreechart.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.jython.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.lucene.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.md.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.parso.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.perl.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.r.bin.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.socialmedia.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.textprocessing.dl4j.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.textprocessing.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.webservice.client.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.views.labs.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.microsoft.r.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.mongodb.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.neighborgram.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.network.distmatrix.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.network.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.python2.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.r.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.rest.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.semanticweb.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.webanalytics.feature.group" version="0.0.0"/>
+<repository location="https://update.knime.org/analytics-platform/3.5/"/>
+</location>
+</locations>
+</target>
