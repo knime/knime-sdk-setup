@@ -37,7 +37,6 @@
 <unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.ext.h2o.local.v31602.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.sparklingwater.feature.group" version="0.0.0"/>
