@@ -8,6 +8,7 @@
 <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.audio.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.pmml.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.pmml.translation.feature.group" version="0.0.0"/>
@@ -27,27 +28,34 @@
 <unit id="org.knime.features.database.connectors.sqlserver.driver.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.database.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.datageneration.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.dbdrivers.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.dl.keras.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.dl.tensorflow.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.explorer.view.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.expressions.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.birt.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.chem.tools.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.chromium.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.dsread.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.sparklingwater.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.jfreechart.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.jython.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.libsvm.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.lucene.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.md.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.parso.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.perl.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.poi.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.r.bin.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.socialmedia.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
@@ -58,6 +66,8 @@
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.json.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.views.labs.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.microsoft.r.feature.group" version="0.0.0"/>
@@ -67,6 +77,8 @@
 <unit id="org.knime.features.network.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.orc.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.personalproductivity.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.python.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.python2.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
@@ -75,8 +87,10 @@
 <unit id="org.knime.features.semanticweb.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.util.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.webanalytics.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <repository location="http://update.knime.org/analytics-platform/nightly/"/>
 </location>
