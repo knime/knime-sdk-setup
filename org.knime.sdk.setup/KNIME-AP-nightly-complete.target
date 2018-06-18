@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="3">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="10">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
@@ -43,10 +43,9 @@
 <unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dsread.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.h2o.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.ext.h2o.mojo.spark.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.ext.h2o.sparklingwater.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.jfreechart.feature.group" version="0.0.0"/>
@@ -68,10 +67,10 @@
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.json.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.views.labs.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.json.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.microsoft.r.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.mongodb.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.neighborgram.feature.group" version="0.0.0"/>
