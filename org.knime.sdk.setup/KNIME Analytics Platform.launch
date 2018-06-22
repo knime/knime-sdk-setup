@@ -18,7 +18,7 @@
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-server&#10;-Dsun.java2d.d3d=false&#10;-Dosgi.classloader.lock=classname&#10;-XX:+UnlockDiagnosticVMOptions&#10;-XX:+UnsyncloadClass&#10;-Dknime.enable.fastload=true&#10;-ea&#10;-Dorg.eclipse.swt.internal.gtk.cairoGraphics=false&#10;-Dorg.eclipse.swt.internal.gtk.useCairo=false&#10;-Dorg.eclipse.swt.browser.IEVersion=10001&#10;-Dsun.awt.noerasebackground=true&#10;-Xmx2G"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-server&#10;-Dsun.java2d.d3d=false&#10;-Dosgi.classloader.lock=classname&#10;-XX:+UnlockDiagnosticVMOptions&#10;-XX:+UnsyncloadClass&#10;-Dknime.enable.fastload=true&#10;-ea&#10;-Dorg.eclipse.swt.internal.gtk.cairoGraphics=false&#10;-Dorg.eclipse.swt.internal.gtk.useCairo=false&#10;-Dorg.eclipse.swt.browser.IEVersion=10001&#10;-Dsun.awt.noerasebackground=true&#10;-Dorg.eclipse.swt.internal.gtk.disablePrinting&#10;-Xmx2G"/>
 <stringAttribute key="pde.version" value="3.3"/>
 <stringAttribute key="product" value="org.knime.product.KNIME_PRODUCT"/>
 <booleanAttribute key="show_selected_only" value="false"/>
