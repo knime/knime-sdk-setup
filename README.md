@@ -32,7 +32,7 @@ releases installations due to changed and/or missing API.
 
 #### 2. Example Code
 * Import ``org.knime.example.node`` ``(File → Import → General → Existing Projects)`` from this repository into your workspace. This project contains and example node implementation that you can use as the basis for your own node development.
-* Alternatively, you can install the [KNIME New Node Wizard](https://www.knime.com/developer/documentation/wizard) into your Eclipse Installation from our [Update site (Category: KNIME Development)](http://update.knime.org/analytics-platform/nightly).
+* Alternatively, you can install the [KNIME New Node Wizard](https://www.knime.com/developer/documentation/wizard) into your Eclipse Installation from our [Update site (Category: KNIME Development)](http://update.knime.com/analytics-platform/3.6).
 
 #### 3. Launch KNIME
 * The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as an Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform. (Note: if the launch configuration is missing, ``Right-click`` on ``KNIME Analytics Platform.launch`` and select ``Run As → KNIME Analytics Platform``).
