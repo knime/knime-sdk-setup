@@ -20,7 +20,7 @@ releases installations due to changed and/or missing API.
 #### 1. Setup Eclipse
 * Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you
   are using at least version 4.7.x.
-* Clone this (_knime-sdk-setup_) repository to your computer.
+* [https://help.github.com/articles/cloning-a-repository/#cloning-a-repository-to-github-desktop](Clone) this (_knime-sdk-setup_) repository to your computer.
 * Import ``org.knime.sdk.setup`` ``(File → Import → General → Existing Projects)`` from this repository into your workspace.
 * In this project, you will find two target platform definition files. One with a minimal installation (``KNIME-AP.target``) and one containing all extensions (``KNIME-AP-complete.target``).
 * Double-click the target platform definition of you want to use for development. If in doubt, use ``KNIME-AP-complete.target``. 
