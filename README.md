@@ -16,52 +16,58 @@ nodes that are compatible with the 3.6 release, checkout the branch ``releases/2
 releases installations due to changed and/or missing API.
 
 ## Getting Started
-### General Setup for Node Development
-#### 1. Setup Eclipse
-* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you
-  are using at least version 4.7.x.
-* [https://help.github.com/articles/cloning-a-repository/#cloning-a-repository-to-github-desktop](Clone) this (_knime-sdk-setup_) repository to your computer.
-* Import ``org.knime.sdk.setup`` ``(File → Import → General → Existing Projects)`` from this repository into your workspace.
-* In this project, you will find two target platform definition files. One with a minimal installation (``KNIME-AP.target``) and one containing all extensions (``KNIME-AP-complete.target``).
-* Double-click the target platform definition of you want to use for development. If in doubt, use ``KNIME-AP-complete.target``. 
-* Now click __Set as Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform. Important: Resolving the target platform definition may take a while.
+This section is split into four parts ``General Setup``,  ``Develop Nodes``, ``Exploring KNIME Analytics Platform Source Code`` and `` Contribute to KNIME Analytics Platform Source Code``.  Please follow the instructions in ``General Setup`` first. Also, in our instructions we use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) to work with Git, however, you can use any other Git client as well.
 
-*Adding Extensions to the Target Definition:*
-* _Adding Plug-ins From KNIME Analytics Platform Update Site:_ You can simply edit the existing update-site entry in the selected target definition and add more extensions as needed.
-* _Third Party Update-Sites:_ If you need additional plug-ins from third party update-sites, you can edit the software sites in the target definitions. For example you can add the update-sites from [Community Contributions Website](https://www.knime.com/community).
-
-#### 2. Example Code
-* Import ``org.knime.example.node`` ``(File → Import → General → Existing Projects)`` from this repository into your workspace. This project contains and example node implementation that you can use as the basis for your own node development.
-* Alternatively, you can install the [KNIME New Node Wizard](https://www.knime.com/developer/documentation/wizard) into your Eclipse Installation from our [Update site (Category: KNIME Development)](http://update.knime.com/analytics-platform/3.6).
-
-#### 3. Launch KNIME
-* The ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as an Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for debugging and testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform. (Note: if the launch configuration is missing, ``Right-click`` on ``KNIME Analytics Platform.launch`` and select ``Run As → KNIME Analytics Platform``).
-* The launch configuration uses 2GB of available RAM. If you want to use a different amount, change the value of the ``-Xmx2g`` VM argument in the _Arguments_ tab of the launch configuration.
-
-### Contributing to KNIME Analytics Platform code
-#### 1. General Setup
-* Follow the steps in _General Setup for Node Development_
+### General Setup
+#### 1. Install Java and Eclipse
+* In case you haven't installed Java, please download and install [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and restart your computer.
+* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you are using at least version 4.7.x.
 
 #### 2. Install Git and Git LFS
-Install The Git command line client and Git LFS support:
+Install Git with LFS support:
 
-* Linux: Git should be part of the standard repositories, Git LFS might miss, get it from https://help.github.com/articles/installing-git-large-file-storage/#platform-linux
-* Windows: https://git-scm.com/download/win. Git LFS should be part of the Git installation. If Git LFS is missing, please install it from https://git-lfs.github.com/
-* MacOS X: https://git-scm.com/download/mac and https://git-lfs.github.com/
+* Windows: Eclipse 4.7 already comes with a Git installation. In case you want to install Git manually, please follow https://git-scm.com/download/win. Git LFS should be part of the Git installation. If Git LFS is missing, please install it from https://git-lfs.github.com/.
+* Linux: Git should be part of the standard repositories. If Git LFS is missing, get it from https://help.github.com/articles/installing-git-large-file-storage/#platform-linux.
+* macOS: https://git-scm.com/download/mac and https://git-lfs.github.com/.
 
-#### 3. Configure API Baseline
+#### 3. Setup Eclipse
+* Start Eclipse.
+* Use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) (pre-installed with Eclipse 4.7.x) to clone this repository (_knime-sdk-setup_) into your Eclipse workspace. Go to ``File → Import → Git → Projects from Git File → Clone URI``. Enter ``https://github.com/knime/knime-sdk-setup`` as URI and proceed. Next, select the branches you want to clone. Select all branches starting with ``releases/`` and the `master` branch. Next, select the initial branch you want to work with (e.g. ``master``, see ``Development Notes`` above). Choose ``Import existing Eclipse projects``. In a last step, select all three projects (``org.apache.xmlbeans``, ``org.knime.sdk.setup`` and ``org.knime.example.node``) and press ``Finish``.
+* In the imported ``org.knime.sdk.setup`` project, you find three target platform definition files (ending with ``.target``). A target definition defines the set of KNIME Extensions and Integrations which will be available when starting your KNIME Analytics Platform development version (see ``Launch KNIME Analytics Platform``). ``KNIME-AP.target`` comprises a minimal KNIME Analytics Platform installation, while ``KNIME-AP-complete.target`` contains all KNIME Extensions and Integrations. You can simply ignore ``KNIME-AP-complete-internal.target``.
+* Double-click on the target platform definition you want to use for development. If in doubt, use ``KNIME-AP-complete.target``. _Note: Resolving the target platform the first time takes a while. You can monitor the progress at the bottom right corner of your Eclipse._
+* Now click __Set as Active Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform. Important: Resolving the target platform definition may take a while.
+
+#### 4. Adding Extensions to the Target Definition (Advanced)
+In case you didn't select ``KNIME-AP-complete.target`` or you want to add third party extensions:
+
+* _Adding Plug-ins From KNIME Analytics Platform Update Site:_ You can simply edit the existing update-site entries in the selected target definition and add more extensions as needed.
+* _Third Party Update-Sites:_ If you need additional plug-ins from third party update-sites, you can edit the software sites in the target definitions. For example you can add the update-sites from [Community Contributions Website](https://www.knime.com/community).
+
+#### 5. Launch KNIME Analytics Platform
+* ``KNIME Analytics Platform`` launch configuration is now available to you in the debug and run configuration dialogs as an Eclipse application. The run configuration starts a new KNIME instance with all KNIME Analytics Platform Extensions in the target platform and your local workspace. This launched instance can be used for testing your custom functionality. All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform. (Note: if the launch configuration is missing, ``Right-click`` on ``KNIME Analytics Platform.launch`` and select ``Run As → KNIME Analytics Platform``).
+* The launch configuration uses 2GB of available RAM. If you want to use a different amount, change the value of the ``-Xmx2g`` VM argument in the _Arguments_ tab of the launch configuration.
+* Starting KNIME Analytics Platform from Eclipse the first time may take some time (often > 5min), as Eclipse is resolving all bundle dependencies. All subsequent start-ups will be considerably faster.
+
+### Develop Nodes
+* The project ``org.knime.example.node`` you imported in the ``General Setup`` contains an example node implementation that you can use as the basis for your own node development.
+* Alternatively, you can install the [KNIME New Node Wizard](https://www.knime.com/developer/documentation/wizard) into your Eclipse Installation from our [Update site (Category: KNIME Development)](http://update.knime.com/analytics-platform/3.6).
+
+### Explore KNIME Analytics Platform Source Code
+* If you want to work with the source code of KNIME Analytics Platform or a related extension, simply clone and import the repository of interest (e.g. https://github.com/knime/knime-core) and import the plug-ins as Java projects into your Eclipse workspace, similiar to ``General Setup - Eclipse Setup`` (``File → Import → Git → Projects from Git File → Clone URI``). 
+* Projects imported into the workspace take precedence over plug-ins in the target platform.
+* In case you experience compile errors such as ``The type org.dmg.pmml.* cannot be resolved`` or ``The import org.dmg.pmml.* cannot be resolved`` please close or remove the project ``org.knime.core.pmml``. This project contains auto-generated classes only and is already part of the target platform.
+
+### Contribute to KNIME Analytics Platform Source Code
+#### 1. Contributor License Agreement
+* Please read and sign our [Contributor License Agreement](https://github.com/knime/knime-sdk-setup/blob/master/CONTRIBUTING.MD) such that we can accept your ``Pull Requests``.
+
+#### 2. Configure API Baseline
+Our API-Baseline ensures that we don't break existing KNIME API and stay backwards-compatible:
 * Go to ``Window → Preferences → Plug-in Development → API Baseline and Add Baseline...``
 * Select ``A target platform``
 * Select ``KNIME Analytics Platform (3.x release)`` (which is in the ``org.knime.sdk.setup`` project)
 * Click Refresh
 * Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (3.x release)``) and click ``OK``
-
-#### 4. Work with source code of KNIME Analytics Platform
-* Some projects auto-generate code using XML Beans. They require you to have the project _org.apache.xmlbeans_ from this repository in your workspace. Import ``org.apache.xmlbeans`` ``(File → Import → General → Existing Projects)`` from this repository into your workspace.
-* If you want to work with the source code of KNIME Analytics Platform or a related extension, simply clone the repository of interest (e.g. from [Bitbucket](http://bitbucket.com/knime)) and import the plug-ins as Java projects into your Eclipse workspace (``File → Import → General → Existing Projects``). 
-* Projects imported into the workspace take precedence over plug-ins in the target platform.
-* Use ``git lfs clone`` in favor of ``git clone`` to clone our repositories for faster cloning.
-* In case you experience compile errors such as ``The type org.dmg.pmml.* cannot be resolved`` or ``The import org.dmg.pmml.* cannot be resolved`` please close or remove the project ``org.knime.core.pmml``. This project contains auto-generated classes only and is already part of the target platform.
 
 ## Links
 * [JavaDoc](https://www.knime.com/javadoc-api)
@@ -77,6 +83,3 @@ Do you have questions regarding the development of KNIME Analytics Platform? Rea
 
 ### Be Part of the Community
 If you have developed an extension of general interest and you want to make it available to the KNIME Community, we are happy to support you! Contact us via our [Community Contributions Website](https://www.knime.com/community). 
-
-### Pull-Requests
-Currently we can't accept external pull requests for various reasons. However, we plan to allow external developers to contribute directly to KNIME Analytics Platform in the future.
