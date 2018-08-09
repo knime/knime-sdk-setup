@@ -18,6 +18,7 @@
 <unit id="org.knime.features.base.widedata.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.connectors.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.externals.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.bigdata.fileformats.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.spark.local.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
@@ -43,9 +44,10 @@
 <unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dsread.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.ext.h2o.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.h2o.mojo.spark.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.h2o.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.jfreechart.feature.group" version="0.0.0"/>
@@ -61,9 +63,11 @@
 <unit id="org.knime.features.ext.socialmedia.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.tableau.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.textprocessing.dl4j.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.textprocessing.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.webservice.client.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.webservice.client.ppilot.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
@@ -71,6 +75,7 @@
 <unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.views.labs.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.json.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.kafka.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.microsoft.r.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.mongodb.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.neighborgram.feature.group" version="0.0.0"/>
@@ -78,6 +83,7 @@
 <unit id="org.knime.features.network.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.orc.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.parquet.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.personalproductivity.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.python2.feature.group" version="0.0.0"/>
