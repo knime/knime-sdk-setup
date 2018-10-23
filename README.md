@@ -50,8 +50,7 @@ In case you didn't select ``KNIME-AP-complete.target`` or you want to add third 
 
 ### Develop Nodes
 * The project ``org.knime.example.node`` you imported in the ``General Setup`` contains an example node implementation that you can use as the basis for your own node development.
-* Alternatively, you can install the [KNIME New Node Wizard](https://www.knime.com/developer/documentation/wizard) into your Eclipse Installation from our [Update site (Category: KNIME Development)](http://update.knime.com/analytics-platform/3.6).
-
+* Alternatively, you can install the [KNIME New Node Wizard](https://www.knime.com/developer/documentation/wizard) into your Eclipse Installation. To do so, open Eclipse’s plugin installation wizard at ``Help → Install New Software...``, add the [KNIME Update site](http://update.knime.com/analytics-platform/3.6) to your list of repositories, select it in the drop-down menu labelled ``Work with:``, and search for the ``KNIME Node Wizard`` to install it.
 ### Explore KNIME Analytics Platform Source Code
 * If you want to work with the source code of KNIME Analytics Platform or a related extension, simply clone and import the repository of interest (e.g. https://github.com/knime/knime-core) and import the plug-ins as Java projects into your Eclipse workspace, similiar to ``General Setup - Eclipse Setup`` (``File → Import → Git → Projects from Git File → Clone URI``). 
 * Projects imported into the workspace take precedence over plug-ins in the target platform.
