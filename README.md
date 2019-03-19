@@ -12,7 +12,7 @@ _Please note: We are currently in the process of publishing more of our open-sou
 KNIME Analytics Platform is built on Eclipse, employing its wealth of functionality in a variety of ways. A key concept behind Eclipse is its use of plug-ins, which can be added to an existing installation to provide additional functionality. In order to develop custom functionality to extend KNIME Analytics Platform, you first have to populate your local [target platform](https://wiki.eclipse.org/PDE/Target_Definitions) with all the required dependencies. A target platform defines a set of plug-ins that can be used as dependencies by projects in your workspace. 
 
 The target platform is different for every release, so you must select the correct branch of ``knime-sdk-setup``. For example for developing
-nodes that are compatible with the 3.6 release, checkout the branch ``releases/2018-07`` and select the file ``KNIME-AP.target``. If you want to develop against the latest nightly build, checkout the master branch and use ``KNIME-AP.target`` from there. However, bear in mind that extensions developed against nightly may not work in
+nodes that are compatible with the 3.7 release, checkout the branch ``releases/2018-12`` and select the file ``KNIME-AP.target``. If you want to develop against the latest nightly build, checkout the master branch and use ``KNIME-AP.target`` from there. However, bear in mind that extensions developed against nightly may not work in
 releases installations due to changed and/or missing API.
 
 ## Getting Started
@@ -20,19 +20,19 @@ This section is split into four parts ``General Setup``,  ``Develop Nodes``, ``E
 
 ### General Setup
 #### 1. Install Java and Eclipse
-* In case you haven't installed Java, please download and install [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and restart your computer.
-* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you are using at least version 4.7.x.
+* In case you haven't installed Java, please download and install [Java SE Development Kit 8](https://adoptopenjdk.net/) and restart your computer.
+* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/eclipse-packages/). Make sure you are using at least version 4.8.x.
 
 #### 2. Install Git and Git LFS
 Install Git with LFS support:
 
-* Windows: Eclipse 4.7 already comes with a Git installation. In case you want to install Git manually, please follow https://git-scm.com/download/win. Git LFS should be part of the Git installation. If Git LFS is missing, please install it from https://git-lfs.github.com/.
+* Windows: Eclipse 4.8 already comes with a Git installation. In case you want to install Git manually, please follow https://git-scm.com/download/win. Git LFS should be part of the Git installation. If Git LFS is missing, please install it from https://git-lfs.github.com/.
 * Linux: Git should be part of the standard repositories. If Git LFS is missing, get it from https://help.github.com/articles/installing-git-large-file-storage/#platform-linux.
 * macOS: https://git-scm.com/download/mac and https://git-lfs.github.com/.
 
 #### 3. Setup Eclipse
 * Start Eclipse.
-* Use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) (pre-installed with Eclipse 4.7.x) to clone this repository (_knime-sdk-setup_) into your Eclipse workspace. Go to ``File → Import → Git → Projects from Git File → Clone URI``. Enter ``https://github.com/knime/knime-sdk-setup`` as URI and proceed. Next, select the branches you want to clone. Select all branches starting with ``releases/`` and the `master` branch. Next, select the initial branch you want to work with (e.g. ``master``, see ``Development Notes`` above). Choose ``Import existing Eclipse projects``. In a last step, select all three projects (``org.apache.xmlbeans``, ``org.knime.sdk.setup`` and ``org.knime.example.node``) and press ``Finish``.
+* Use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) (pre-installed with Eclipse 4.8.x) to clone this repository (_knime-sdk-setup_) into your Eclipse workspace. Go to ``File → Import → Git → Projects from Git File → Clone URI``. Enter ``https://github.com/knime/knime-sdk-setup`` as URI and proceed. Next, select the branches you want to clone. Select all branches starting with ``releases/`` and the `master` branch. Next, select the initial branch you want to work with (e.g. ``master``, see ``Development Notes`` above). Choose ``Import existing Eclipse projects``. In a last step, select all three projects (``org.apache.xmlbeans``, ``org.knime.sdk.setup`` and ``org.knime.example.node``) and press ``Finish``.
 * In the imported ``org.knime.sdk.setup`` project, you find three target platform definition files (ending with ``.target``). A target definition defines the set of KNIME Extensions and Integrations which will be available when starting your KNIME Analytics Platform development version (see ``Launch KNIME Analytics Platform``). ``KNIME-AP.target`` comprises a minimal KNIME Analytics Platform installation, while ``KNIME-AP-complete.target`` contains all KNIME Extensions and Integrations. You can simply ignore ``KNIME-AP-complete-internal.target``.
 * Double-click on the target platform definition you want to use for development. If in doubt, use ``KNIME-AP-complete.target``. _Note: Resolving the target platform the first time takes a while. You can monitor the progress at the bottom right corner of your Eclipse._
 * Now click __Set as Active Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform. Important: Resolving the target platform definition may take a while.
