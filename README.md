@@ -31,7 +31,7 @@ NOTE: The branches corresponding to the different version of KNIME Analytics Pla
 This section provides step by step instructions on how to set up the KNIME Analytics Platform SDK. These instructions assume you are using the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) as your Git client, which is already contained in the Eclipse installation. However you can use any other Git client as well.
 
 #### 1. Install Java
-* KNIME Analytics Platform uses Java 8. In case you haven't installed the [Java SE Development KIT 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), please download and install it, and then restart your computer.
+* KNIME Analytics Platform uses Java 8. In case you haven't installed the [OpenJDK 8](https://adoptopenjdk.net/), please download and install it, and then restart your computer.
 
 #### 2. Install Eclipse
 * Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2018-12/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 4.7.x.
