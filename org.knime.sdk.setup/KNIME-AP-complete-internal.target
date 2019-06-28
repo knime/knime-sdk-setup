@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="11">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="13">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
@@ -25,6 +25,7 @@
 <unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.athena.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.aws.mlservices.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.redshift.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.azure.feature.group" version="0.0.0"/>
@@ -35,6 +36,7 @@
 <unit id="org.knime.features.dbdrivers.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.dl.keras.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.dl.onnx.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.dl.tensorflow.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.explorer.view.feature.group" version="0.0.0"/>
@@ -65,6 +67,7 @@
 <unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.tableau.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.tableau.hyper.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.textprocessing.dl4j.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.textprocessing.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.webservice.client.feature.group" version="0.0.0"/>
@@ -72,6 +75,7 @@
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.plotly.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.views.labs.feature.group" version="0.0.0"/>
@@ -98,6 +102,7 @@
 <unit id="org.knime.features.util.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.webanalytics.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.xgboost.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <repository location="https://jenkins.knime.org/download/trunk/"/>
