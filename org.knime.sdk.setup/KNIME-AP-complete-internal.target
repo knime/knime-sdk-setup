@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="13">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="30">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
@@ -98,7 +98,7 @@
 <unit id="org.knime.features.scm.git.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.semanticweb.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.testing.application.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.util.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.webanalytics.feature.group" version="0.0.0"/>

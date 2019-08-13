@@ -97,7 +97,7 @@
 <unit id="org.knime.features.scm.git.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.semanticweb.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.testing.application.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.util.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.webanalytics.feature.group" version="0.0.0"/>
