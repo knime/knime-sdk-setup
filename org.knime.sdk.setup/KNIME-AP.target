@@ -29,7 +29,7 @@
 -ea
 -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
 -Dorg.eclipse.swt.internal.gtk.useCairo=false
--Dorg.eclipse.swt.browser.IEVersion=10001
+-Dorg.eclipse.swt.browser.IEVersion=12001
 -Dsun.awt.noerasebackground=true
 -Dsun.net.client.defaultReadTimeout=0
 -Dorg.eclipse.swt.internal.gtk.disablePrinting</vmArgs>

@@ -112,6 +112,6 @@
 -ea
 -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
 -Dorg.eclipse.swt.internal.gtk.useCairo=false
--Dorg.eclipse.swt.browser.IEVersion=10001</vmArgs>
+-Dorg.eclipse.swt.browser.IEVersion=12001</vmArgs>
 </launcherArgs>
 </target>
