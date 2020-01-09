@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?>
-<target name="KNIME Analytics Platform (4.0 release)" sequenceNumber="3">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (4.1 release)" sequenceNumber="3">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="4.10.0.v201911181437"/>

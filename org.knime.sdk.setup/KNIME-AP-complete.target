@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="11">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (4.1) - with all extensions" sequenceNumber="11">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.explorer.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.remote.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.reporting.designer.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.audio.feature.group" version="0.0.0"/>
@@ -93,6 +92,7 @@
 <unit id="org.knime.features.python2.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.reporting.designer.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.rest.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.scm.git.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.semanticweb.feature.group" version="0.0.0"/>
