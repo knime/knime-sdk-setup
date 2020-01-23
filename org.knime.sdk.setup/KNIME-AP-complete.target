@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="11">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="12">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.explorer.sharedspace.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.explorer.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.remote.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.reporting.designer.feature.group" version="0.0.0"/>
@@ -104,6 +105,23 @@
 <unit id="org.knime.features.xgboost.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.aws.filehandling.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.database.extensions.sqlserver.driver.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.mdf.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.powerbi.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.filehandling.core.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.google.cloud.storage.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.core.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.mli.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.product.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.reporting.runtime.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.salesforce.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.stats.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.timeseries.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.weaksupervision.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.workbench.feature.group" version="0.0.0"/>
 <repository location="http://update.knime.org/analytics-platform/nightly/"/>
 </location>
 </locations>

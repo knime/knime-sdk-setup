@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build)" sequenceNumber="1512743962">
+<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build)" sequenceNumber="1512743963">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
@@ -16,6 +16,13 @@
 <unit id="org.knime.features.testing.application.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.core.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.product.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.stats.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.timeseries.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.workbench.feature.group" version="0.0.0"/>
 <repository location="https://update.knime.org/analytics-platform/nightly/"/>
 </location>
 </locations>
