@@ -64,7 +64,6 @@
 <unit id="org.knime.features.ext.poi.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.r.bin.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.twitter.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.ext.google.api.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.tableau.feature.group" version="0.0.0"/>
@@ -75,6 +74,7 @@
 <unit id="org.knime.features.ext.webservice.client.ppilot.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.google.api.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.plotly.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
