@@ -119,7 +119,6 @@
 <unit id="org.knime.features.mli.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.product.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.reporting.runtime.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.salesforce.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.stats.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.timeseries.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.weaksupervision.feature.group" version="0.0.0"/>
