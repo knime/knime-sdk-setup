@@ -113,7 +113,6 @@
 <unit id="org.knime.features.database.extensions.sqlserver.driver.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.mdf.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.powerbi.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.filehandling.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.google.cloud.storage.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.core.feature.group" version="0.0.0"/>
