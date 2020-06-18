@@ -19,7 +19,6 @@
 <unit id="org.knime.features.base.widedata.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.buildworkflows.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.connectors.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.bigdata.externals.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.fileformats.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.spark.local.feature.group" version="0.0.0"/>
