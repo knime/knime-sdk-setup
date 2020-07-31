@@ -26,7 +26,9 @@ try {
                 /opt/p2-director/p2-director -data "$TEMP_DEST" -application org.eclipse.pde.api.tools.apiAnalyzer \\
                     -project org.knime.sdk.setup -baseline "$TEMP_DEST/API-Baseline.target" -vmargs -Xmx2048m
                 
-                mv "$DEST" "$DEST.old"
+                if [[ -d "$DEST" ]]; then
+                    mv "$DEST" "$DEST.old"
+                fi
                 mv "$TEMP_DEST" "$DEST"
                 rm -rf "$DEST.old"
 			'''
