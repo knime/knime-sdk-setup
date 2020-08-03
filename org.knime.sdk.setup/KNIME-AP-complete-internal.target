@@ -6,7 +6,9 @@
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.explorer.sharedspace.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.explorer.feature.group" version="0.0.0"/>
-<unit id="com.knime.features.gateway.remote.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.gateway.client.rest.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.gateway.client.jsonrpc.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.gateway.executor.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.reporting.designer.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
@@ -76,6 +78,7 @@
 <unit id="org.knime.features.ext.webservice.client.ppilot.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.gateway.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.google.api.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.jpmml.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.plotly.feature.group" version="0.0.0"/>
