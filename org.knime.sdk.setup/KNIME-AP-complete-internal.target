@@ -28,6 +28,7 @@
 <unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.athena.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.cloud.aws.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.mlservices.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.redshift.feature.group" version="0.0.0"/>
@@ -44,12 +45,14 @@
 <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.explorer.view.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.expressions.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.azure.blobstorage.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.birt.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.chem.tools.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.chromium.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dsread.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.google.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.h2o.mojo.spark.feature.group" version="0.0.0"/>
@@ -61,11 +64,13 @@
 <unit id="org.knime.features.ext.libsvm.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.lucene.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.md.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.office365.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.parso.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.perl.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.poi.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.r.bin.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.ssh.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.twitter.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
