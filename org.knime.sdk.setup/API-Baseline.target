@@ -16,6 +16,7 @@
 <unit id="org.knime.features.base.pmml2.feature.group" version="4.2.0.v202003261551"/>
 <unit id="org.knime.features.base.widedata.feature.group" version="4.2.0.v202003231244"/>
 <unit id="org.knime.features.bigdata.connectors.feature.group" version="4.2.0.v202007080953"/>
+<unit id="org.knime.features.bigdata.databricks.feature.group" version="4.2.0.v202007101343"/>
 <unit id="org.knime.features.bigdata.fileformats.feature.group" version="4.2.0.v202007080953"/>
 <unit id="org.knime.features.bigdata.spark.feature.group" version="4.2.0.v202007101343"/>
 <unit id="org.knime.features.bigdata.spark.local.feature.group" version="4.2.0.v202007101343"/>
