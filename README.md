@@ -34,7 +34,7 @@ This section provides step by step instructions on how to set up the KNIME Analy
 * KNIME Analytics Platform uses Java 8. In case you haven't installed the [OpenJDK 8](https://adoptopenjdk.net/), please download and install it, and then restart your computer.
 
 #### 2. Install Eclipse
-* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2018-12/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 4.7.x.
+* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2020-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 4.15.x.
 
 #### 3. Install Git and Git LFS
 If you plan to use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/), you may skip this step.
