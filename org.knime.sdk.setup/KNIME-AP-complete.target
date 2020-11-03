@@ -23,6 +23,7 @@
 <unit id="org.knime.features.bigdata.databricks.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.fileformats.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.hadoop.filehandling.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.bigdata.hadoop.filehandling.knox.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.spark.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.spark.local.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.testing.feature.group" version="0.0.0"/>
