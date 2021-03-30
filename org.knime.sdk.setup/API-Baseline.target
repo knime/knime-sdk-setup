@@ -61,7 +61,6 @@
 <unit id="org.knime.features.ext.parso.feature.group" version="4.3.0.v202011191623"/>
 <unit id="org.knime.features.ext.perl.feature.group" version="4.3.0.v202011191553"/>
 <unit id="org.knime.features.ext.poi.feature.group" version="4.3.0.v202012021111"/>
-<unit id="org.knime.features.ext.r.bin.feature.group" version="3.4.2.v202011212005"/>
 <unit id="org.knime.features.ext.twitter.feature.group" version="4.3.0.v202011191704"/>
 <unit id="org.knime.features.ext.tableau.hyperapi.feature.group" version="4.3.0.v202011301607"/>
 <unit id="org.knime.features.ext.textprocessing.dl4j.feature.group" version="4.3.0.v202011212014"/>
