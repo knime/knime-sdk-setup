@@ -41,7 +41,6 @@
 <unit id="org.knime.features.ext.azure.feature.group" version="4.3.0.v202012031749"/>
 <unit id="org.knime.features.ext.birt.feature.group" version="4.3.0.v202011211912"/>
 <unit id="org.knime.features.ext.chem.tools.feature.group" version="4.3.0.v202011191214"/>
-<unit id="org.knime.features.ext.chromium.feature.group" version="83.0.4103.116"/>
 <unit id="org.knime.features.ext.dl4j.feature.group" version="4.3.0.v202011211946"/>
 <unit id="org.knime.features.ext.dsread.feature.group" version="4.3.0.v202011191623"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="4.3.0.v202011191432"/>
