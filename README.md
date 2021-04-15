@@ -8,7 +8,7 @@ The tools provided in this repository will help you set up your KNIME Analytics 
 
 ## Introduction
 
-KNIME Analytics Platform is built on Eclipse, employing its wealth of functionality in a variety of ways. A key concept behind Eclipse is its use of plug-ins, which can be added to an existing installation to provide additional functionality. Hence, an extension for KNIME Analytics Platform is essentially an [Eclipse plug-in](https://help.eclipse.org/2018-12/index.jsp?topic=%2Forg.eclipse.pde.doc.user%2Fconcepts%2Fplugin.htm&cp=4_1_3).
+KNIME Analytics Platform is built on Eclipse, employing its wealth of functionality in a variety of ways. A key concept behind Eclipse is its use of plug-ins, which can be added to an existing installation to provide additional functionality. Hence, an extension for KNIME Analytics Platform is essentially an [Eclipse plug-in](https://help.eclipse.org/2021-03/index.jsp?topic=/org.eclipse.pde.doc.user/concepts/plugin.htm&cp=4_1_3).
 
 ### Target Platform
 
@@ -19,22 +19,23 @@ In practice, the target platform is defined using target platform definition fil
 * ``KNIME-AP.target``: contains the minimal required plug-ins for a KNIME Analytics Platform installation
 * ``KNIME-AP-complete.target``: contains all KNIME Extensions without Community Contributions
 * ``KNIME-AP-complete-internal.target``: internal, can be ignored
+* ``KNIME-AP-internal.target``: internal, can be ignored
 
 NOTE: If you want to add or remove extensions from your used platform definition file (e.g. adding Community Contributions), please see the ``Adding Extensions to the Target Definition`` section below.
 
-The target platform is different for every release of KNIME Analytics Platform. The different versions of the above mentioned ``.target`` files are contained on branches of this repository, hence you must select the correct branch of this repository in order to specify the version of KNIME Analytics Platform you want to use for your development work. For example, for developing code that is compatible with the 3.7 release, check out the branch ``releases/2018-12`` (as KNIME Analytics Platform was released December 2018, also see note below for a general explanation of the naming scheme). If you want to develop using the latest nightly build, check out the ``master`` branch. However, bear in mind that extensions developed using a nightly build may not work in releases installations due to changed and/or missing API.
+The target platform is different for every release of KNIME Analytics Platform. The different versions of the above mentioned ``.target`` files are contained on branches of this repository, hence you must select the correct branch of this repository in order to specify the version of KNIME Analytics Platform you want to use for your development work. For example, for developing code that is compatible with the 4.3 release, check out the branch ``releases/2020-12`` (as KNIME Analytics Platform 4.3 was released December 2020, also see note below for a general explanation of the naming scheme). If you want to develop using the latest nightly build, check out the ``master`` branch. However, bear in mind that extensions developed using a nightly build may not work in releases installations due to changed and/or missing API.
 
-NOTE: The branches corresponding to the different version of KNIME Analytics Platform are prefixed with ``releases/``. The branch names do not directly contain the version number they corresponds to, but the date the version was released. E.g. KNIME Analytics Platform 3.7 was released December 2018, hence the corresponding branch is named ``2018-12``. This branch will also contain bugfix releases as soon as they are released. E.g. after KNIME Analytics Platform 3.7.1 was released, these changes were available on the branch ``releases/2018-12``. You can find out when a specific version of KNIME Analytics Platform was released on the [Releases](https://github.com/knime/knime-core/releases) page of the knime-core GitHub repository (e.g. the date ``on 4 Dec 2018`` for ``analytics-platform/3.7.0`` corresponds to the branch name ``2018-12``). As mentioned earlier, keep in mind that there aren't separate branches for bugfix releases.
+NOTE: The branches corresponding to the different version of KNIME Analytics Platform are prefixed with ``releases/``. The branch names do not directly contain the version number they corresponds to, but the date the version was released. E.g. KNIME Analytics Platform 4.3 was released December 2020, hence the corresponding branch is named ``2020-12``. This branch will also contain bugfix releases as soon as they are released. E.g. after KNIME Analytics Platform 3.7.1 was released, these changes were available on the branch ``releases/2020-12``. You can find out when a specific version of KNIME Analytics Platform was released on the [Releases](https://github.com/knime/knime-core/releases) page of the knime-core GitHub repository (e.g. the date ``on 3 Dec 2020`` for ``analytics-platform/4.3.0`` corresponds to the branch name ``2020-12``). As mentioned earlier, keep in mind that there aren't separate branches for bugfix releases.
 
 ## SDK Setup
 
 This section provides step by step instructions on how to set up the KNIME Analytics Platform SDK. These instructions assume you are using the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) as your Git client, which is already contained in the Eclipse installation. However you can use any other Git client as well.
 
 #### 1. Install Java
-* KNIME Analytics Platform uses Java 8. In case you haven't installed the [OpenJDK 8](https://adoptopenjdk.net/), please download and install it, and then restart your computer.
-
+* KNIME Analytics Platform uses Java 11 since version 4.4. In case you haven't installed the [OpenJDK 11](https://adoptopenjdk.net/), please download and install it, and then restart your computer.
+* Versions of KNIME Analytics Platform up to 4.3 use Java 8 and will not work with Java 11. To develop plugins for these versions you will need to install OpenJDK 8 from the same source as above.
 #### 2. Install Eclipse
-* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2020-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 4.15.x.
+* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 2021-03.
 
 #### 3. Install Git and Git LFS
 If you plan to use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/), you may skip this step.
@@ -46,6 +47,7 @@ Note: For Linux, Git should already be part of most distributions and therefore 
 
 #### 4. Configure Eclipse
 * Start Eclipse.
+* Configure the default JRE used by Eclipse to be the one you installed earlier. See the [Eclipse Help](https://help.eclipse.org/2021-03/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-add_new_jre.htm&cp%3D1_3_5_1) how to perform this task.
 * Clone this repository (``knime-sdk-setup``) and import it into your Eclipse workspace. To do this using EGit, go to ``File → Import → Git → Projects from Git File → Clone URI``. Enter: [https://github.com/knime/knime-sdk-setup](https://github.com/knime/knime-sdk-setup) as URI and proceed. Now,  select the branches you want to clone. Select all branches starting with ``releases/`` and the ``master`` branch. Next, select the initial branch you want to work with (e.g. ``master``, see ``Target Platform`` section above). Finally, Choose ``Import existing Eclipse projects``, select all projects and click __Finish__.
 * Double click the target platform definition file (``.target`` files In the imported ``org.knime.sdk.setup`` project) that you want to use for development (the difference between the files is explained in the ``Target Platform`` section above). If in doubt, use ``KNIME-AP-complete.target``.  
 NOTE: Resolving the target platform the first time takes a while as all dependencies need to be downloaded. You can monitor the progress at the bottom right corner of your Eclipse application. Wait until the target platform is resolved by Eclipse before continuing with the next step.
@@ -111,7 +113,6 @@ Set the API Baseline in Eclipse. The API Baseline ensures that no API breaks are
     If the problem is resolved, the checkbox can be unchecked upon the next launch
 
 ## Links
-* [JavaDoc](https://www.knime.com/javadoc-api)
 * [Developer Guide](https://www.knime.com/developer-guide)
 * [Noding Guidelines](https://tech.knime.org/files/development/noding_guidelines.pdf)
 * [Developer FAQ](https://www.knime.com/developer/faq)
