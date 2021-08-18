@@ -5,8 +5,6 @@
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="4.13.0.v202106251304"/>
 <unit id="com.knime.features.explorer.sharedspace.feature.group" version="3.9.0.v202104131316"/>
-<unit id="com.knime.features.gateway.explorer.feature.group" version="4.13.0.v202106281621"/>
-<unit id="com.knime.features.gateway.executor.feature.group" version="4.13.0.v202106281621"/>
 <unit id="org.knime.features.reporting.designer.feature.group" version="4.4.0.v202104131230"/>
 <unit id="org.knime.features.activelearning.feature.group" version="4.4.0.v202104131246"/>
 <unit id="org.knime.features.arima.feature.group" version="4.4.0.v202104131708"/>
