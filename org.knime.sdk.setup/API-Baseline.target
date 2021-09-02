@@ -27,6 +27,7 @@
 <unit id="org.knime.features.cloud.aws.mlservices.feature.group" version="4.4.0.v202104131255"/>
 <unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="4.4.0.v202104131304"/>
 <unit id="org.knime.features.cloud.aws.redshift.feature.group" version="4.4.0.v202105200000"/>
+<unit id="org.knime.features.core.feature.group" version="4.4.1.v202108201740"/>
 <unit id="org.knime.features.core.streaming.feature.group" version="4.4.0.v202104141432"/>
 <unit id="org.knime.features.database.connectors.sqlserver.driver.feature.group" version="6.2.2.v202104131304"/>
 <unit id="org.knime.features.database.feature.group" version="4.4.0.v202106231908"/>
