@@ -3,6 +3,7 @@
 <target name="KNIME Analytics Platform (4.3 release)" sequenceNumber="3">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.knime.desktop.product" version="4.3.0.v202012061114"/>
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="4.12.0.v202012030723"/>
 <unit id="com.knime.features.explorer.sharedspace.feature.group" version="3.9.0.v202011212013"/>
 <unit id="com.knime.features.gateway.explorer.feature.group" version="4.12.0.v202012011554"/>
