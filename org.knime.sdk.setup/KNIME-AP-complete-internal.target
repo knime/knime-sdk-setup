@@ -119,7 +119,6 @@
 <unit id="org.knime.features.ext.powerbi.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.google.cloud.storage.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.js.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.mli.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.product.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.reporting.runtime.feature.group" version="0.0.0"/>

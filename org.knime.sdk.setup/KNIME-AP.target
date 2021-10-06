@@ -18,8 +18,6 @@
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.js.core.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.product.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.stats.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.timeseries.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.workbench.feature.group" version="0.0.0"/>
