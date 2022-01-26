@@ -8,6 +8,7 @@
 <unit id="com.knime.features.gateway.client.rest.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.executor.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.explorer.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.workbench.hubview.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.audio.feature.group" version="0.0.0"/>
@@ -24,6 +25,7 @@
 <unit id="org.knime.features.bigdata.spark.local.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.testing.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.buildworkflows.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.browser.cef.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.athena.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
