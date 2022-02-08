@@ -26,6 +26,7 @@
 <unit id="org.knime.features.bigdata.testing.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.buildworkflows.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.browser.cef.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.browser.chromium.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.athena.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
@@ -49,7 +50,6 @@
 <unit id="org.knime.features.ext.azure.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.birt.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.chem.tools.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.ext.chromium.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dl4j.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dsread.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
