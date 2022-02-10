@@ -17,6 +17,7 @@
 <unit id="org.knime.features.base.pmml2.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.pmml.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.pmml.translation.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.views.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.widedata.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.connectors.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.bigdata.databricks.feature.group" version="0.0.0"/>
