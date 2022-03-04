@@ -54,6 +54,15 @@ NOTE: Resolving the target platform the first time takes a while as all dependen
 * Now click __Set as Active Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.  
 NOTE: Setting the target platform definition may also take a while.
 
+#### 5. Configure API Baseline
+Set the API Baseline in Eclipse. The API Baseline ensures that no API breaks are introduced in new code (by showing an error message in the Eclipse editor when an API break is detected by Eclipse):
+
+* Go to ``Window → Preferences → Plug-in Development → API Baseline and Add Baseline...``
+* Select ``A target platform``
+* Select ``KNIME Analytics Platform (3.x release)`` (which is in the ``org.knime.sdk.setup`` project)
+* Click __Refresh__
+* Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (3.x release)``) and click __OK__
+
 ## Launch KNIME Analytics Platform
 
 This section describes how to launch KNIME Analytics Platform from Eclipse after you have set up the KNIME Analytics Platform SDK following the steps from the ``SDK Setup`` section.
@@ -87,13 +96,7 @@ Note: You can safely ignore any warnings and errors related to `pom.xml` files (
 * Please read and sign our [Contributor License Agreement](https://github.com/knime/knime-sdk-setup/blob/master/CONTRIBUTING.MD) such that we can accept your ``Pull Requests``.
 
 #### 2. Configure API Baseline
-Set the API Baseline in Eclipse. The API Baseline ensures that no API breaks are introduced in new code (by showing an error message in the Eclipse editor when an API break is detected by Eclipse):
-
-* Go to ``Window → Preferences → Plug-in Development → API Baseline and Add Baseline...``
-* Select ``A target platform``
-* Select ``KNIME Analytics Platform (3.x release)`` (which is in the ``org.knime.sdk.setup`` project)
-* Click __Refresh__
-* Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (3.x release)``) and click __OK__
+Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 
 #### 3. Get KNIME source code
 * Get the KNIME Analytics Platform source code you want work with as described in the ``Explore KNIME Analytics Platform Source Code`` section.
