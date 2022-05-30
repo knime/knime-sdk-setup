@@ -2,7 +2,7 @@
 
 KNIME Analytics Platform is the leading open solution for data-driven innovation, helping you discover the potential hidden in your data, mine for fresh insights, or predict new futures. Our enterprise-grade, open source platform is fast to deploy, easy to scale, and intuitive to learn.
 
-![Image](https://www-cdn.knime.com/sites/default/files/inline-images/knime-analytics-platform.png)
+![Image](https://www.knime.com/sites/default/files/inline-images/knime-analytics-platform.png)
 
 The tools provided in this repository will help you set up your KNIME Analytics Platform SDK so that you can work with the source code of our extensions or develop your own for KNIME Analytics Platform. If you are not interested in development and prefer to simply download and try KNIME Analytics Platform right now, then click [here](http://knime.com/downloads).
 
@@ -33,10 +33,14 @@ This section provides step by step instructions on how to set up the KNIME Analy
 
 #### 1. Install Java
 * KNIME Analytics Platform uses Java 17 since version 4.6. In case you haven't installed the [OpenJDK 17](https://adoptium.net/), please download and install it, and then restart your computer.
-* KNIME Analytics Platform uses Java 11 for version 4.4 and 4.5 In case you haven't installed the [OpenJDK 11](https://adoptium.net/), please download and install it, and then restart your computer.
-* Versions of KNIME Analytics Platform up to 4.3 use Java 8 and will not work with Java 11. To develop plugins for these versions you will need to install OpenJDK 8 from the same source as above.
+  * for KNIME Analytics Platform 4.4 and 4.5, use [OpenJDK 11](https://adoptium.net/).
+  * for KNIME Analytics Platform up to 4.3, use [OpenJDK 8](https://adoptium.net/).
+
 #### 2. Install Eclipse
-* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 2021-03.
+* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 2022-03.
+
+  * in case you're on Apple Silicon, please still choose x86_64 for now.
+  
 
 #### 3. Install Git and Git LFS
 If you plan to use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/), you may skip this step.
@@ -60,9 +64,9 @@ Set the API Baseline in Eclipse. The API Baseline ensures that no API breaks are
 
 * Go to ``Window → Preferences → Plug-in Development → API Baseline and Add Baseline...``
 * Select ``A target platform``
-* Select ``KNIME Analytics Platform (3.x release)`` (which is in the ``org.knime.sdk.setup`` project)
+* Select ``KNIME Analytics Platform (4.x release)`` (which is in the ``org.knime.sdk.setup`` project)
 * Click __Refresh__
-* Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (3.x release)``) and click __OK__
+* Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (4.x release)``) and click __OK__
 
 ## Launch KNIME Analytics Platform
 
