@@ -37,7 +37,7 @@ This section provides step by step instructions on how to set up the KNIME Analy
   * for KNIME Analytics Platform up to 4.3, use [OpenJDK 8](https://adoptium.net/).
 
 #### 2. Install Eclipse
-* Download and install the latest version of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 2022-03.
+* Download and install the version 2021-03 of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at exactly version 2021-03, as there are compatibility issues with other versions.
 
   * in case you're on Apple Silicon, please still choose x86_64 for now.
   
