@@ -138,7 +138,6 @@
 -Dsun.java2d.d3d=false
 -Dosgi.classloader.lock=classname
 -XX:+UnlockDiagnosticVMOptions
--XX:+UseG1GC
 -ea
 -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
 -Dorg.eclipse.swt.internal.gtk.useCairo=false
