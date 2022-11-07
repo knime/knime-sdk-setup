@@ -9,7 +9,7 @@ properties([
 ])
 
 try {
-	node('maven && large') {
+	node('maven && large && java11') {
 		stage('Checkout Sources') {
 			env.lastStage = env.STAGE_NAME
 			checkout scm
