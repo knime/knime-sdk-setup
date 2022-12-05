@@ -36,6 +36,7 @@
 <unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.redshift.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.ui.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.database.connectors.sqlserver.driver.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.database.extensions.sqlserver.driver.feature.group" version="0.0.0"/>
