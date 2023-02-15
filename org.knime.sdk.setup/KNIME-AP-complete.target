@@ -120,6 +120,7 @@
 <unit id="org.knime.features.stats.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.testing.application.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.timeseries.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ui.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.util.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.weaksupervision.feature.group" version="0.0.0"/>
