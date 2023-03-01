@@ -93,7 +93,7 @@ All publicly available KNIME Analytics Platform source code can be found on the 
 
 IMPORTANT: All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform. E.g. if you imported ``knime-core`` into your workspace and also added ``knime-core`` to the target platform definition, the version from the target platform is ignored. This is especially important to keep in mind if the source code of the plug-in in your workspace differs from the source code obtained via the target platform definition (i.e. the versions differ).
 
-Note: You can safely ignore any warnings and errors related to `pom.xml` files (they only show up if you have installed an extension for Maven development in your Eclipse IDE). They are part of a new build setup that is currently under development.
+Note: You can safely ignore any warnings and errors related to `pom.xml` files (they only show up if you have installed an extension for Maven development in your Eclipse IDE). They are part of the KNIME internal build system.
 
 ## Contribute to KNIME Analytics Platform Source Code
 
