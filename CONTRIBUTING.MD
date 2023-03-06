@@ -4,7 +4,7 @@ In order for us to be able to accept your pull requests, you have to first fill 
 
 Please fill out, date and sign the CLA and send the original signed copy via mail to us:
 
-	KNIME AG, Technoparkstrasse 1, 8005 Zurich, Switzerland
+	KNIME AG, Talacker 50, 8001 Zurich, Switzerland
 
 Once we receive it, we will review your pull requests and can accept your contributions for all of our public repositories.
 
