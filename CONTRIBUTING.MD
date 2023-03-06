@@ -1,6 +1,6 @@
 # Contributor License Agreement
 
-In order for us to be able to accept your pull requests, you have to first fill out the [Contributor License Agreement (CLA)](https://www.knime.com/sites/default/files/KNIME_CLA.pdf). 
+In order for us to be able to accept your pull requests, you have to first fill out the [Contributor License Agreement (CLA)](https://www.knime.com/sites/default/files/2023-03/KNIME_CLA.pdf). 
 
 Please fill out, date and sign the CLA and send the original signed copy via mail to us:
 
