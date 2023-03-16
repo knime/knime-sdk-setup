@@ -5,10 +5,6 @@
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="4.17.0.v202302201924"/>
 <unit id="com.knime.features.explorer.sharedspace.feature.group" version="3.9.0.v202301131325"/>
-<unit id="com.knime.features.gateway.client.jsonrpc.feature.group" version="4.17.0.v202301271309"/>
-<unit id="com.knime.features.gateway.client.rest.feature.group" version="4.17.0.v202302201924"/>
-<unit id="com.knime.features.gateway.executor.feature.group" version="4.17.0.v202301161553"/>
-<unit id="com.knime.features.gateway.explorer.feature.group" version="4.17.0.v202302201924"/>
 <unit id="com.knime.features.workbench.hubview.feature.group" version="4.15.0.v202301131829"/>
 <unit id="org.knime.features.activelearning.feature.group" version="5.0.0.v202301111435"/>
 <unit id="org.knime.features.arima.feature.group" version="5.0.0.v202301111435"/>
@@ -83,7 +79,6 @@
 <unit id="org.knime.features.ext.twitter.feature.group" version="5.0.0.v202301111433"/>
 <unit id="org.knime.features.ext.webservice.client.feature.group" version="5.0.0.v202301130913"/>
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="5.0.0.v202301130909"/>
-<unit id="org.knime.features.gateway.feature.group" version="5.0.0.v202302211717"/>
 <unit id="org.knime.features.google.api.feature.group" version="5.0.0.v202302211105"/>
 <unit id="org.knime.features.google.cloud.storage.feature.group" version="5.0.0.v202302211105"/>
 <unit id="org.knime.features.javasnippet.feature.group" version="5.0.0.v202302171700"/>
