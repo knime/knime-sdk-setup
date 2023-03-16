@@ -23,7 +23,6 @@
 <unit id="org.knime.features.bigdata.spark.local.feature.group" version="5.0.0.v202302210924"/>
 <unit id="org.knime.features.bigdata.testing.feature.group" version="5.0.0.v202301121928"/>
 <unit id="org.knime.features.buildworkflows.feature.group" version="5.0.0.v202301121858"/>
-<unit id="org.knime.features.browser.cef.feature.group" version="5.0.0.v202302161355"/>
 <unit id="org.knime.features.browser.chromium.feature.group" version="5.0.0.v202301131225"/>
 <unit id="org.knime.features.chem.types.feature.group" version="5.0.0.v202301131218"/>
 <unit id="org.knime.features.cloud.aws.athena.feature.group" version="5.0.0.v202302211309"/>
