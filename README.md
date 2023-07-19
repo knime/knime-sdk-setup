@@ -1,4 +1,4 @@
-# ![Image](https://www.knime.com/files/knime_logo_github_40x40_4layers.png) KNIME® Analytics Platform - SDK Setup
+# ![KNIME® logo](https://www.knime.com/files/knime_logo_github_40x40_4layers.png) KNIME® Analytics Platform - SDK Setup
 
 KNIME Analytics Platform is the leading open solution for data-driven innovation, helping you discover the potential hidden in your data, mine for fresh insights, or predict new futures. Our enterprise-grade, open source platform is fast to deploy, easy to scale, and intuitive to learn.
 
@@ -29,23 +29,26 @@ NOTE: The branches corresponding to the different version of KNIME Analytics Pla
 
 ## SDK Setup
 
-This section provides step by step instructions on how to set up the KNIME Analytics Platform SDK. These instructions assume you are using the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) as your Git client, which is already contained in the Eclipse installation. However you can use any other Git client as well.
+This section provides step-by-step instructions on how to set up the KNIME Analytics Platform SDK. These instructions assume you are using the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/) as your Git client, which is already contained in the Eclipse installation. However you can use any other Git client as well.
+
+__Note:__ In case you are on Apple Silicon (M1, M2, etc.) read the section "Apple Silicon Support" below.
 
 #### 1. Install Java
 * KNIME Analytics Platform uses Java 17 since version 4.6. In case you haven't installed the [OpenJDK 17](https://adoptium.net/), please download and install it, and then restart your computer.
   * for KNIME Analytics Platform 4.4 and 4.5, use [OpenJDK 11](https://adoptium.net/).
   * for KNIME Analytics Platform up to 4.3, use [OpenJDK 8](https://adoptium.net/).
 
+
 #### 2. Install Eclipse
 * Download and install the version 2023-03 of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 2023-03, as there are compatibility issues with other versions.
 
   * in case you're on Apple Silicon, please still choose x86_64 for now.
-  
+
 
 #### 3. Install Git and Git LFS
 If you plan to use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/), you may skip this step.
 
-* __Git__: If you want to use Git manually (from the command line or using a [Git client](https://git-scm.com/downloads/guis/)), Git can be downloaded from [here](https://git-scm.com/downloads). 
+* __Git__: If you want to use Git manually (from the command line or using a [Git client](https://git-scm.com/downloads/guis/)), Git can be downloaded from [here](https://git-scm.com/downloads).
 Note: For Linux, Git should already be part of most distributions and therefore does not need to be installed.
 
 * __Git LFS__: Git LFS should already be part of most Git installations. In order to check, try running the following command: ``git lfs``. If the command cannot be found by the system, install Git LFS from [here](https://git-lfs.github.com/).
@@ -54,9 +57,9 @@ Note: For Linux, Git should already be part of most distributions and therefore 
 * Start Eclipse.
 * Configure the default JRE used by Eclipse to be the one you installed earlier. See the [Eclipse Help](https://help.eclipse.org/2021-03/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-add_new_jre.htm&cp%3D1_3_5_1) how to perform this task.
 * Clone this repository (``knime-sdk-setup``) and import it into your Eclipse workspace. To do this using EGit, go to ``File → Import → Git → Projects from Git File → Clone URI``. Enter: [https://github.com/knime/knime-sdk-setup](https://github.com/knime/knime-sdk-setup) as URI and proceed. Now,  select the branches you want to clone. Select all branches starting with ``releases/`` and the ``master`` branch. Next, select the initial branch you want to work with (e.g. ``master``, see ``Target Platform`` section above). Finally, Choose ``Import existing Eclipse projects``, select all projects and click __Finish__.
-* Double click the target platform definition file (``.target`` files In the imported ``org.knime.sdk.setup`` project) that you want to use for development (the difference between the files is explained in the ``Target Platform`` section above). If in doubt, use ``KNIME-AP-complete.target``.  
+* Double click the target platform definition file (``.target`` files In the imported ``org.knime.sdk.setup`` project) that you want to use for development (the difference between the files is explained in the ``Target Platform`` section above). If in doubt, use ``KNIME-AP-complete.target``.
 NOTE: Resolving the target platform the first time takes a while as all dependencies need to be downloaded. You can monitor the progress at the bottom right corner of your Eclipse application. Wait until the target platform is resolved by Eclipse before continuing with the next step.
-* Now click __Set as Active Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.  
+* Now click __Set as Active Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.
 NOTE: Setting the target platform definition may also take a while.
 
 #### 5. Configure API Baseline
@@ -67,6 +70,27 @@ Set the API Baseline in Eclipse. The API Baseline ensures that no API breaks are
 * Select ``KNIME Analytics Platform (4.x release)`` (which is in the ``org.knime.sdk.setup`` project)
 * Click __Refresh__
 * Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (4.x release)``) and click __OK__
+
+
+#### Apple Silicon Support (M1, M2, etc.)
+
+For Apple Silicon (M1, M2, etc. family of processors), determine whether you want to run native (aarch64) or under
+Rosetta 2 (x64/x86\_64) and download the corresponding JDK build _and_ the matching Eclipse build.
+Both have to be built for the same architecture, since otherwise some native libraries might not be properly resolved.
+
+__Known Caveats:__
+
+* If you depend on the Tableau extension, you must choose x86\_64, since Tableau does not supply aarch64
+  libraries.
+  In case you want to use aarch64 and don't need the Tableau extension, you have to remove the corresponding
+  entries manually from the target platform definition files.
+  The entries you need to remove begin with `org.knime.features.ext.tableau`.
+* Some JDK version managers automatically install the build corresponding to the output of `arch`, which is `arm64`
+  for native Apple Silicon.
+  In order to change that, the current terminal must be run under the specific architecture you want to use.
+  For example, to run Terminal.app under Rosetta (x86\_64 emulation), right click on the app bundle → "Get Info",
+  and temporarily check "Open using Rosetta".
+  The output of `arch` should now show `i386`.
 
 ## Launch KNIME Analytics Platform
 
@@ -112,7 +136,7 @@ Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 
 * Errors encountered while setting or modifying the target platform could result from old version numbers cached by Eclipse. This can be fixed by making sure that all plug-in versions specified in the target definition file are set to ``"0.0.0"``. To do this, double click on the ``.target`` file you want to use which opens the Target Definition view of Eclipse. At the bottom, click on the tab __Source__ which opens the raw file in the Eclipse editor. There, make sure all ``version=`` properties are set to ``"0.0.0"`` (including 	quotation marks).
 
-* If you encounter errors when trying to launch KNIME Analytics Platform from within Eclipse, you can try the following to resolve the error/s: 
+* If you encounter errors when trying to launch KNIME Analytics Platform from within Eclipse, you can try the following to resolve the error/s:
     1. In Eclipse select `Run → Run Configurations...` ( or `Debug Configurations...`)
     2. Select the Run/Debug configuration you want to launch
     3. Select the `Configuration` tab
@@ -133,4 +157,4 @@ Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 Do you have questions regarding the development of KNIME Analytics Platform? Reach out to us in our [Forum](https://forum.knime.com/c/knime-development).
 
 ### Be Part of the Community
-If you have developed an extension of general interest and you want to make it available to the KNIME Community, we are happy to support you! Contact us via our [Community Contributions Website](https://www.knime.com/community). 
+If you have developed an extension of general interest and you want to make it available to the KNIME Community, we are happy to support you! Contact us via our [Community Contributions Website](https://www.knime.com/community).
