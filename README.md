@@ -21,11 +21,39 @@ In practice, the target platform is defined using target platform definition fil
 * ``KNIME-AP-complete-internal.target``: internal, can be ignored
 * ``KNIME-AP-internal.target``: internal, can be ignored
 
-NOTE: If you want to add or remove extensions from your used platform definition file (e.g. adding Community Contributions), please see the ``Adding Extensions to the Target Definition`` section below.
+__Note:__ If you want to add or remove extensions from your used platform definition file (e.g. adding Community Contributions), please see the ``Adding Extensions to the Target Definition`` section below.
 
-The target platform is different for every release of KNIME Analytics Platform. The different versions of the above mentioned ``.target`` files are contained on branches of this repository, hence you must select the correct branch of this repository in order to specify the version of KNIME Analytics Platform you want to use for your development work. For example, for developing code that is compatible with the 4.3 release, check out the branch ``releases/2020-12`` (as KNIME Analytics Platform 4.3 was released December 2020, also see note below for a general explanation of the naming scheme). If you want to develop using the latest nightly build, check out the ``master`` branch. However, bear in mind that extensions developed using a nightly build may not work in releases installations due to changed and/or missing API.
+The target platform is different for every release of KNIME Analytics Platform. The different versions of the above mentioned ``.target`` files are contained on branches of this repository, hence you must select the correct branch of this repository in order to specify the version of KNIME Analytics Platform you want to use for your development work.
 
-NOTE: The branches corresponding to the different version of KNIME Analytics Platform are prefixed with ``releases/``. The branch names do not directly contain the version number they corresponds to, but the date the version was released. E.g. KNIME Analytics Platform 4.3 was released December 2020, hence the corresponding branch is named ``2020-12``. This branch will also contain bugfix releases as soon as they are released. E.g. after KNIME Analytics Platform 3.7.1 was released, these changes were available on the branch ``releases/2020-12``. You can find out when a specific version of KNIME Analytics Platform was released on the [Releases](https://github.com/knime/knime-core/releases) page of the knime-core GitHub repository (e.g. the date ``on 3 Dec 2020`` for ``analytics-platform/4.3.0`` corresponds to the branch name ``2020-12``). As mentioned earlier, keep in mind that there aren't separate branches for bugfix releases.
+
+### KNIME Analytics Platform Versions, Release Branches, and Tags
+
+Each release line of KNIME Analytics Platform gets its own branch prefixed with `releases/` and the year-month string
+derived from the date of the first public release of that particular release line.
+For example, KNIME Analytics Platform 5.1.0 was released in July 2023, so its corresponding release line branch is `releases/2023-07`.
+That branch will _also__ receive all bugfix commits slated for that particular release line after the initial .0 release.
+Note, that consequently these branches might contain unreleased (bugfix) changes.
+
+In addition to the release branches, each public release gets tagged with a tag consisting of the product
+(`analytics-platform/`) and the version identifier `major.minor.bugfix`.
+For example, repositories containing code which is released as part of KNIME Analytics Platform version 5.1.0
+have the tag `analytics-platform/5.1.0`.
+
+To summarize, if you want to program an extension that is compatible with a specific release line, use the corresponding
+release branch (recommended).
+If you want to target the latest nightly build, choose the `master` branch. However, bear in mind that extensions
+developed using a nightly build may not work in release builds due to changed and/or missing API.
+In case you want to view code as of a particular version, obtain it via the corresponding tag.
+
+In addition, each KNIME Analytics Platform version is based on a particular version of the Eclipse Platform, which
+is also noted in the table below.
+
+| KNIME Analytics Platform Release Line  | Branch              | Eclipse Version                                                                                                |
+| -------------------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Nightly (unreleased)                   | `master`            | [2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)     |
+| __5.1__                                | `releases/2023-07`  | [__2023-03__](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers) |
+| 4.7                                    | `releases/2022-12`  | [2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-rcp-and-rap-developers)     |
+| 4.6                                    | `releases/2022-06`  | [2021-03](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers)     |
 
 ## SDK Setup
 
@@ -40,10 +68,10 @@ __Note:__ In case you are on Apple Silicon (M1, M2, etc.) read the section "Appl
 
 
 #### 2. Install Eclipse
-* Download and install the version 2023-03 of [Eclipse for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers). Make sure you are using at least version 2023-03, as there are compatibility issues with other versions.
-
-  * in case you're on Apple Silicon, please still choose x86_64 for now.
-
+* Download and install the version of "Eclipse for RCP and RAP Developers" corresponding to the KNIME Analytics Platform
+version you want to develop against, according to the table above.
+Make sure you are using exactly the version noted, as there are compatibility issues with older/newer versions
+(for example, JUnit 5 tests might not be properly recognized). You may try newer versions of Eclipse on your own risk.
 
 #### 3. Install Git and Git LFS
 If you plan to use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/), you may skip this step.
