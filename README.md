@@ -14,12 +14,10 @@ KNIME Analytics Platform is built on Eclipse, employing its wealth of functional
 
 One important part of your development setup is how dependencies are managed. In Eclipse, this is handled using a local [target platform](https://wiki.eclipse.org/PDE/Target_Definitions), which is populated with all the required dependencies. A target platform defines a set of plug-ins that can be used as dependencies by projects in your workspace. In this case, the specified dependencies may comprise of utility libraries, KNIME Analytics Platform core functionality, or KNIME Extensions. Subsequently, the KNIME Extensions specified in the target platform will be available when you start your KNIME Analytics Platform development version. Generally, any Eclipse plug-in can be added to the target platform.
 
-In practice, the target platform is defined using target platform definition files (``.target`` ending), which can be loaded by Eclipse in order to populate the target platform. These files specify a list of dependencies and Eclipse configuration settings. This repository contains several such files (located in ``org.knime.sdk.setup``) that specify different sets of plug-ins for the target platform:
+In practice, the target platform is defined using target platform definition files (``.target`` ending), which can be loaded by Eclipse in order to populate the target platform. These files specify a list of dependencies and Eclipse configuration settings. This repository contains several such files (located in ``org.knime.sdk.setup``) that specify different sets of plug-ins for the target platform. You may use either of the following target platform definition files.
 
 * ``KNIME-AP.target``: contains the minimal required plug-ins for a KNIME Analytics Platform installation
 * ``KNIME-AP-complete.target``: contains all KNIME Extensions without Community Contributions
-* ``KNIME-AP-complete-internal.target``: internal, can be ignored
-* ``KNIME-AP-internal.target``: internal, can be ignored
 
 __Note:__ If you want to add or remove extensions from your used platform definition file (e.g. adding Community Contributions), please see the ``Adding Extensions to the Target Definition`` section below.
 
@@ -28,32 +26,34 @@ The target platform is different for every release of KNIME Analytics Platform. 
 
 ### KNIME Analytics Platform Versions, Release Branches, and Tags
 
-Each release line of KNIME Analytics Platform gets its own branch prefixed with `releases/` and the year-month string
-derived from the date of the first public release of that particular release line.
+Each release line of KNIME Analytics Platform corresponds to a branch named `releases/{YYYY-MM}` where the date is the
+date of the first public release of that particular release line. 
 For example, KNIME Analytics Platform 5.1.0 was released in July 2023, so its corresponding release line branch is `releases/2023-07`.
-That branch will _also__ receive all bugfix commits slated for that particular release line after the initial .0 release.
-Note, that consequently these branches might contain unreleased (bugfix) changes.
+That branch will _also_ receive all bugfix commits slated for that particular release line after the initial `.0` release.
+Note that, consequently, these branches might contain unreleased (bugfix) changes.
 
-In addition to the release branches, each public release gets tagged with a tag consisting of the product
+Each public release is assigned a tag consisting of the product
 (`analytics-platform/`) and the version identifier `major.minor.bugfix`.
 For example, repositories containing code which is released as part of KNIME Analytics Platform version 5.1.0
 have the tag `analytics-platform/5.1.0`.
 
-To summarize, if you want to program an extension that is compatible with a specific release line, use the corresponding
+To summarize:
+
+- If you want to develop an extension that is compatible with a specific release line, check out the corresponding
 release branch (recommended).
-If you want to target the latest nightly build, choose the `master` branch. However, bear in mind that extensions
-developed using a nightly build may not work in release builds due to changed and/or missing API.
-In case you want to view code as of a particular version, obtain it via the corresponding tag.
+- If you want to target the latest nightly build, choose the `master` branch. However, bear in mind that extensions
+developed using a nightly build may not work in subsequent release builds due to changed and/or missing API.
+- In case you want to view code as of a particular version, obtain it via the corresponding tag.
 
 In addition, each KNIME Analytics Platform version is based on a particular version of the Eclipse Platform, which
 is also noted in the table below.
 
-| KNIME Analytics Platform Release Line  | Branch              | Eclipse Version                                                                 |
-| -------------------------------------- | ------------------- | ------------------------------------------------------------------------------- |
-| __Nightly (unreleased)__               | `master`            | [__2023-03__](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)     |
-| 5.1                                    | `releases/2023-07`  | [2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)         |
-| 4.7                                    | `releases/2022-12`  | [2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-rcp-and-rap-developers)         |
-| 4.6                                    | `releases/2022-06`  | [2021-03](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers)         |
+| KNIME Analytics Platform Release Line | Branch              | Eclipse Version                                                                 |
+|---------------------------------------| ------------------- | ------------------------------------------------------------------------------- |
+| __Nightly (unreleased)__              | `master`            | [__2023-03__](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)     |
+| 5.1.x                                 | `releases/2023-07`  | [2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)         |
+| 4.7.x                                 | `releases/2022-12`  | [2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-rcp-and-rap-developers)         |
+| 4.6.x                                 | `releases/2022-06`  | [2021-03](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers)         |
 
 ## SDK Setup
 
@@ -71,7 +71,7 @@ __Note:__ In case you are on Apple Silicon (M1, M2, etc.) read the section "Appl
 * Download and install the version of "Eclipse for RCP and RAP Developers" corresponding to the KNIME Analytics Platform
 version you want to develop against, according to the table above.
 Make sure you are using exactly the version noted, as there are compatibility issues with older/newer versions
-(for example, JUnit 5 tests might not be properly recognized). You may try newer versions of Eclipse on your own risk.
+(for example, JUnit 5 tests might not be properly recognized).
 
 #### 3. Install Git and Git LFS
 If you plan to use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/), you may skip this step.
