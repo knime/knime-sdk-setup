@@ -153,7 +153,7 @@ Note: You can safely ignore any warnings and errors related to `pom.xml` files (
 * Please read and sign our [Contributor License Agreement](https://github.com/knime/knime-sdk-setup/blob/master/CONTRIBUTING.MD) such that we can accept your ``Pull Requests``.
 
 #### 2. Configure API Baseline
-Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
+* Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 
 #### 3. Get KNIME source code
 * Get the KNIME Analytics Platform source code you want work with as described in the ``Explore KNIME Analytics Platform Source Code`` section.
@@ -164,7 +164,7 @@ Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 
 * Errors encountered while setting or modifying the target platform could result from old version numbers cached by Eclipse. This can be fixed by making sure that all plug-in versions specified in the target definition file are set to ``"0.0.0"``. To do this, double click on the ``.target`` file you want to use which opens the Target Definition view of Eclipse. At the bottom, click on the tab __Source__ which opens the raw file in the Eclipse editor. There, make sure all ``version=`` properties are set to ``"0.0.0"`` (including 	quotation marks).
 
-* If you encounter errors when trying to launch KNIME Analytics Platform from within Eclipse, you can try the following to resolve the error/s:
+* If you encounter errors when trying to launch KNIME Analytics Platform from within Eclipse, try:
     1. In Eclipse select `Run → Run Configurations...` ( or `Debug Configurations...`)
     2. Select the Run/Debug configuration you want to launch
     3. Select the `Configuration` tab
@@ -172,6 +172,7 @@ Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 
     If the problem is resolved, the checkbox can be unchecked upon the next launch
 
+    Alternatively: shutdown Eclipse and start it with the `-clean` option.
 ## Links
 * [Developer Guide](https://www.knime.com/developer-guide)
 * [Noding Guidelines](https://tech.knime.org/files/development/noding_guidelines.pdf)
