@@ -1,4 +1,4 @@
-# ![KNIME® logo](https://www.knime.com/files/knime_logo_github_40x40_4layers.png) KNIME® Analytics Platform - SDK Setup
+# ![KNIME® logo](https://www.knime.com/sites/default/files/knime_logo_github_40x40_4layers.png) KNIME® Analytics Platform - SDK Setup
 
 KNIME Analytics Platform is the leading open solution for data-driven innovation, helping you discover the potential hidden in your data, mine for fresh insights, or predict new futures. Our enterprise-grade, open source platform is fast to deploy, easy to scale, and intuitive to learn.
 
@@ -95,9 +95,9 @@ Set the API Baseline in Eclipse. The API Baseline ensures that no API breaks are
 
 * Go to ``Window → Preferences → Plug-in Development → API Baseline and Add Baseline...``
 * Select ``A target platform``
-* Select ``KNIME Analytics Platform (4.x release)`` (which is in the ``org.knime.sdk.setup`` project)
+* Select ``KNIME Analytics Platform (5.x release)`` (which is in the ``org.knime.sdk.setup`` project)
 * Click __Refresh__
-* Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (4.x release)``) and click __OK__
+* Give the baseline a meaningful name (e.g. ``KNIME Analytics Platform (5.x release)``) and click __OK__
 
 
 #### Apple Silicon Support (M1, M2, etc.)
