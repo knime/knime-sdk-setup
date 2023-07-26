@@ -34,6 +34,7 @@
 <unit id="org.knime.features.cloud.aws.mlservices.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.redshift.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.conda.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.columnar.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.ui.feature.group" version="0.0.0"/>
@@ -107,6 +108,7 @@
 <unit id="org.knime.features.personalproductivity.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.product.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.python2.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.python3.nodes.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.reporting.designer.feature.group" version="0.0.0"/>
