@@ -5,6 +5,7 @@
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.browser.cef.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.columnar.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.core.ui.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.database.feature.group" version="0.0.0"/>
