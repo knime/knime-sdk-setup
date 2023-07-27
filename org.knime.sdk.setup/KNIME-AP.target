@@ -26,6 +26,10 @@
 <unit id="org.knime.features.ui.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.workbench.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.views.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <repository location="https://update.knime.com/analytics-platform/nightly/"/>
 </location>
