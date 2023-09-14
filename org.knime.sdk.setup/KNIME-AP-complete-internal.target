@@ -132,6 +132,8 @@
 <unit id="org.knime.features.workbench.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.xgboost.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ai.assistant.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.scripting.editor.feature.group" version="0.0.0"/>
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <repository location="https://jenkins.devops.knime.com/p2-browse/knime/composites/master"/>
 </location>
