@@ -30,6 +30,7 @@
 <unit id="org.knime.features.browser.chromium.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.buildworkflows.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.chem.types.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.clfixes.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.athena.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.cloud.aws.mlservices.feature.group" version="0.0.0"/>
