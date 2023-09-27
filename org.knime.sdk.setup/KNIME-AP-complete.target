@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="13">
+<?pde version="3.8"?>
+<target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="13">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
@@ -135,6 +136,11 @@
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <repository location="https://update.knime.com/analytics-platform/nightly/"/>
 </location>
+	<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<repository location="https://download.eclipse.org/tools/ajdt/426/dev/update"/>
+		<unit id="org.eclipse.contribution.weaving.feature.group" version="2.2.4.202309080255"/>
+		<unit id="org.eclipse.equinox.weaving.sdk.feature.group" version="1.2.0.202309080255"/>
+	</location>
 </locations>
 <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
 <launcherArgs>
