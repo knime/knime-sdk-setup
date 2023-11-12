@@ -49,6 +49,7 @@
 <unit id="org.knime.features.dl.keras.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.dl.onnx.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.dl.tensorflow.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.email.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.explorer.view.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.expressions.feature.group" version="0.0.0"/>
