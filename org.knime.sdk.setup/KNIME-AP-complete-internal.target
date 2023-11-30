@@ -88,6 +88,7 @@
 <unit id="org.knime.features.ext.twitter.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.webservice.client.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.filehandling.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.gateway.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.google.api.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.google.cloud.storage.feature.group" version="0.0.0"/>

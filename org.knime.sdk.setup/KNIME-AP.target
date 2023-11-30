@@ -15,6 +15,7 @@
 <unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.poi.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.filehandling.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.json.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
