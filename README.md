@@ -51,6 +51,7 @@ is also noted in the table below.
 | KNIME Analytics Platform Release Line | Branch              | Eclipse Version                                                                 |
 |---------------------------------------| ------------------- | ------------------------------------------------------------------------------- |
 | __Nightly (unreleased)__              | `master`            | [__2023-03__](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)     |
+| 5.2.x                                 | `releases/2023-12`  | [2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)         |
 | 5.1.x                                 | `releases/2023-07`  | [2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)         |
 | 4.7.x                                 | `releases/2022-12`  | [2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-rcp-and-rap-developers)         |
 | 4.6.x                                 | `releases/2022-06`  | [2021-03](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers)         |
