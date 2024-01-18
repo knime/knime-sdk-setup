@@ -173,16 +173,11 @@ Note: You can safely ignore any warnings and errors related to `pom.xml` files (
 
     Alternatively: shutdown Eclipse and start it with the `-clean` option.
 ## Links
-* [Developer Guide](https://www.knime.com/developer-guide)
-* [Noding Guidelines](https://tech.knime.org/files/development/noding_guidelines.pdf)
-* [Developer FAQ](https://www.knime.com/developer/faq)
-* [Example Plug-in](https://www.knime.com/developer/example/node-model)
+* [Developer Guide](https://docs.knime.com/latest/development_contribute_extension)
+* [Noding Guidelines](https://www.knime.com/sites/default/files/inline-images/noding_guidelines.pdf)
 * [Pre-built Nightly Builds](https://www.knime.com/form/nightly-build)
 * [Examples Repository](https://github.com/knime/knime-examples)
 
 ## KNIME Community Contributors
-### Forum
-Do you have questions regarding the development of KNIME Analytics Platform? Reach out to us in our [Forum](https://forum.knime.com/c/knime-development).
+A great place to start your journey of developing and publishing an extension is our [Developer Guide](https://docs.knime.com/latest/development_contribute_extension). If you have questions about development, reach out to us in our [Forum](https://forum.knime.com/c/node-development/21). And if you have already developed an extension, consider [publishing it](https://docs.knime.com/latest/development_contribute_extension/#_publish_your_extension) to make it available to the KNIME Community and be part of our developer community! We are happy to support you.
 
-### Be Part of the Community
-If you have developed an extension of general interest and you want to make it available to the KNIME Community, we are happy to support you! Contact us via our [Community Contributions Website](https://www.knime.com/community).
