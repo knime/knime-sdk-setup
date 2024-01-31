@@ -6,6 +6,8 @@ KNIME Analytics Platform is the leading open solution for data-driven innovation
 
 The tools provided in this repository will help you set up your KNIME Analytics Platform SDK so that you can work with the source code of our extensions or develop your own for KNIME Analytics Platform. If you are not interested in development and prefer to simply download and try KNIME Analytics Platform right now, then click [here](http://knime.com/downloads).
 
+This repository is maintained by the [KNIME DevOps Team](mailto:devops@knime.com).
+
 ## Introduction
 
 KNIME Analytics Platform is built on Eclipse, employing its wealth of functionality in a variety of ways. A key concept behind Eclipse is its use of plug-ins, which can be added to an existing installation to provide additional functionality. Hence, an extension for KNIME Analytics Platform is essentially an [Eclipse plug-in](https://help.eclipse.org/2021-03/index.jsp?topic=/org.eclipse.pde.doc.user/concepts/plugin.htm&cp=4_1_3).
