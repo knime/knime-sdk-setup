@@ -9,6 +9,7 @@
 <unit id="com.knime.features.gateway.client.rest.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.executor.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.gateway.explorer.feature.group" version="0.0.0"/>
+<unit id="com.knime.features.hub.nodes.feature.group" version="0.0.0"/>
 <unit id="com.knime.features.workbench.hubview.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
