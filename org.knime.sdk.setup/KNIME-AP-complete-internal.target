@@ -57,6 +57,7 @@
 <unit id="org.knime.features.expressions.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.azure.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.birt.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.box.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.chem.tools.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.dsread.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.exttool.feature.group" version="0.0.0"/>
