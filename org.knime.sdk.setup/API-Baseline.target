@@ -1,126 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="KNIME Analytics Platform (5.2 release)" sequenceNumber="4">
+<target name="KNIME Analytics Platform (5.3) - with all extensions" sequenceNumber="32">
 <locations>
-<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
-<unit id="com.knime.features.explorer.serverspace.feature.group" version="5.2.0.v202311291113"/>
-<unit id="com.knime.features.explorer.sharedspace.feature.group" version="3.9.0.v202310301556"/>
-<unit id="com.knime.features.workbench.hubview.feature.group" version="5.2.0.v202310311514"/>
-<unit id="org.knime.features.activelearning.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.arima.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.audio.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.base.feature.group" version="5.2.0.v202311291511"/>
-<unit id="org.knime.features.base.filehandling.feature.group" version="5.2.0.v202311170857"/>
-<unit id="org.knime.features.base.pmml2.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.base.pmml.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.base.pmml.translation.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.base.views.feature.group" version="5.2.0.v202311291659"/>
-<unit id="org.knime.features.base.widedata.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.bigdata.connectors.feature.group" version="5.2.0.v202311021430"/>
-<unit id="org.knime.features.bigdata.databricks.feature.group" version="5.2.0.v202311140943"/>
-<unit id="org.knime.features.bigdata.fileformats.feature.group" version="5.2.0.v202311021430"/>
-<unit id="org.knime.features.bigdata.spark.feature.group" version="5.2.0.v202311021430"/>
-<unit id="org.knime.features.bigdata.spark.local.feature.group" version="5.2.0.v202311021430"/>
-<unit id="org.knime.features.bigdata.testing.feature.group" version="5.2.0.v202311021430"/>
-<unit id="org.knime.features.buildworkflows.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.browser.chromium.feature.group" version="5.2.0.v202311021440"/>
-<unit id="org.knime.features.chem.types.feature.group" version="5.2.0.v202311021437"/>
-<unit id="org.knime.features.cloud.aws.athena.feature.group" version="5.2.0.v202311031158"/>
-<unit id="org.knime.features.cloud.aws.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.cloud.aws.mlservices.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="5.2.0.v202311031158"/>
-<unit id="org.knime.features.cloud.aws.redshift.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.core.feature.group" version="5.2.0.v202311301336"/>
-<unit id="org.knime.features.core.streaming.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.database.connectors.sqlserver.driver.feature.group" version="6.2.2.v202311031107"/>
-<unit id="org.knime.features.database.extensions.sqlserver.driver.feature.group" version="5.0.0.v202311031158"/>
-<unit id="org.knime.features.database.feature.group" version="5.2.0.v202311272057"/>
-<unit id="org.knime.features.datageneration.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.dbdrivers.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.distmatrix.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.dl.keras.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.dl.onnx.feature.group" version="5.2.0.v202311021432"/>
-<unit id="org.knime.features.dl.tensorflow.feature.group" version="5.2.0.v202311021432"/>
-<unit id="org.knime.features.ensembles.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.explorer.view.feature.group" version="5.2.0.v202311242020"/>
-<unit id="org.knime.features.expressions.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.azure.feature.group" version="5.2.0.v202311151336"/>
-<unit id="org.knime.features.ext.birt.feature.group" version="5.2.0.v202310301554"/>
-<unit id="org.knime.features.ext.chem.tools.feature.group" version="5.2.0.v202311021437"/>
-<unit id="org.knime.features.ext.dsread.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.exttool.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.h2o.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.h2o.mojo.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.h2o.mojo.spark.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.ext.h2o.spark.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.ext.itemset.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.jep.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.jfreechart.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.jython.feature.group" version="5.2.0.v202311281525"/>
-<unit id="org.knime.features.ext.libsvm.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.ext.lucene.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.md.feature.group" version="5.2.0.v202311271251"/>
-<unit id="org.knime.features.ext.mdf.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.office365.filehandling.feature.group" version="5.2.0.v202311282124"/>
-<unit id="org.knime.features.ext.osm.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.parso.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.perl.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.poi.feature.group" version="5.2.0.v202311211020"/>
-<unit id="org.knime.features.ext.powerbi.feature.group" version="5.2.0.v202311151341"/>
-<unit id="org.knime.features.ext.r.bin.feature.group" version="3.4.2.v202311070859"/>
-<unit id="org.knime.features.ext.spotfire.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.ext.svg.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.ext.tableau.feature.group" version="5.2.0.v202311100912"/>
-<unit id="org.knime.features.ext.tableau.hyperapi.feature.group" version="5.2.0.v202311100943"/>
-<unit id="org.knime.features.ext.tableau.hyper.feature.group" version="5.2.0.v202311100943"/>
-<unit id="org.knime.features.ext.textprocessing.feature.group" version="5.2.0.v202311031340"/>
-<unit id="org.knime.features.exttool.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.ext.twitter.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.ext.webservice.client.feature.group" version="5.2.0.v202310061525"/>
-<unit id="org.knime.features.ext.weka_3.7.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.google.api.feature.group" version="5.2.0.v202311281529"/>
-<unit id="org.knime.features.google.cloud.storage.feature.group" version="5.2.0.v202311281529"/>
-<unit id="org.knime.features.javasnippet.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.jpmml.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.json.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.js.plotly.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.js.quickforms.feature.group" version="5.2.0.v202311300839"/>
-<unit id="org.knime.features.js.views.feature.group" version="5.2.0.v202311071034"/>
-<unit id="org.knime.features.js.views.labs.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.kafka.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.microsoft.r.feature.group" version="5.2.0.v202311070902"/>
-<unit id="org.knime.features.mli.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.mongodb.feature.group" version="5.2.0.v202311021236"/>
-<unit id="org.knime.features.neighborgram.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.network.distmatrix.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.network.feature.group" version="5.2.0.v202311090950"/>
-<unit id="org.knime.features.optimization.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.orc.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.parquet.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.personalproductivity.feature.group" version="5.2.0.v202311281916"/>
-<unit id="org.knime.features.product.feature.group" version="5.2.0.v202311301918"/>
-<unit id="org.knime.features.python2.feature.group" version="5.2.0.v202311301708"/>
-<unit id="org.knime.features.python.feature.group" version="5.2.0.v202311301708"/>
-<unit id="org.knime.features.quickform.legacy.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.reporting.designer.feature.group" version="5.2.0.v202311161028"/>
-<unit id="org.knime.features.reporting.runtime.feature.group" version="5.2.0.v202311161028"/>
-<unit id="org.knime.features.rest.feature.group" version="5.2.0.v202311081204"/>
-<unit id="org.knime.features.r.feature.group" version="5.2.0.v202311070902"/>
-<unit id="org.knime.features.scm.git.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.semanticweb.feature.group" version="5.2.0.v202310301555"/>
-<unit id="org.knime.features.stats2.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.stats.feature.group" version="5.2.0.v202311231052"/>
-<unit id="org.knime.features.testing.application.feature.group" version="5.2.0.v202311301120"/>
-<unit id="org.knime.features.timeseries.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.util.feature.group" version="5.2.0.v202311251617"/>
-<unit id="org.knime.features.virtual.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.weaksupervision.feature.group" version="5.2.0.v202311021432"/>
-<unit id="org.knime.features.webanalytics.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.features.workbench.feature.group" version="5.2.0.v202311291418"/>
-<unit id="org.knime.features.xgboost.feature.group" version="5.2.0.v202311070842"/>
-<unit id="org.knime.features.xml.feature.group" version="5.2.0.v202310301556"/>
-<unit id="org.knime.targetPlatform.feature.group" version="5.2.0.v202311100948"/>
-<repository location="https://update.knime.com/analytics-platform/5.2/"/>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="com.knime.features.explorer.serverspace.feature.group" version="5.3.0.v202406241223"/>
+<unit id="com.knime.features.gateway.executor.feature.group" version="5.3.0.v202407012113"/>
+<unit id="com.knime.features.gateway.explorer.feature.group" version="5.3.0.v202406121249"/>
+<unit id="com.knime.features.hub.nodes.feature.group" version="5.3.0.v202406241223"/>
+<unit id="com.knime.features.workbench.hubview.feature.group" version="5.3.0.v202406241223"/>
+<unit id="org.knime.features.activelearning.feature.group" version="5.3.0.v202312081533"/>
+<unit id="org.knime.features.arima.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.audio.feature.group" version="5.3.0.v202403010949"/>
+<unit id="org.knime.features.base.filehandling.feature.group" version="5.3.0.v202406281155"/>
+<unit id="org.knime.features.base.pmml2.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.base.pmml.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.base.pmml.translation.feature.group" version="5.3.0.v202406161218"/>
+<unit id="org.knime.features.base.views.feature.group" version="5.3.0.v202407021419"/>
+<unit id="org.knime.features.base.widedata.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.bigdata.connectors.feature.group" version="5.3.0.v202407021527"/>
+<unit id="org.knime.features.bigdata.databricks.feature.group" version="5.3.0.v202407030829"/>
+<unit id="org.knime.features.bigdata.fileformats.feature.group" version="5.3.0.v202407020737"/>
+<unit id="org.knime.features.bigdata.spark.feature.group" version="5.3.0.v202407021527"/>
+<unit id="org.knime.features.bigdata.spark.local.feature.group" version="5.3.0.v202407021527"/>
+<unit id="org.knime.features.bigdata.testing.feature.group" version="5.3.0.v202406200933"/>
+<unit id="org.knime.features.browser.cef.feature.group" version="5.3.0.v202407030441"/>
+<unit id="org.knime.features.browser.chromium.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.buildworkflows.feature.group" version="5.3.0.v202406110936"/>
+<unit id="org.knime.features.chem.types.feature.group" version="5.3.0.v202406100952"/>
+<unit id="org.knime.features.cloud.aws.athena.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.cloud.aws.feature.group" version="5.3.0.v202406181151"/>
+<unit id="org.knime.features.cloud.aws.mlservices.feature.group" version="5.3.0.v202406101153"/>
+<unit id="org.knime.features.cloud.aws.redshift.driver.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.cloud.aws.redshift.feature.group" version="5.3.0.v202406142028"/>
+<unit id="org.knime.features.conda.feature.group" version="5.3.0.v202406210945"/>
+<unit id="org.knime.features.core.columnar.feature.group" version="5.3.0.v202407021403"/>
+<unit id="org.knime.features.core.streaming.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.database.extensions.sqlserver.driver.feature.group" version="5.0.0.v202406142026"/>
+<unit id="org.knime.features.database.feature.group" version="5.3.0.v202407020927"/>
+<unit id="org.knime.features.datageneration.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.dbdrivers.feature.group" version="5.3.0.v202405241821"/>
+<unit id="org.knime.features.distmatrix.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.dl.keras.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.dl.onnx.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.dl.tensorflow.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.email.feature.group" version="5.3.0.v202407031955"/>
+<unit id="org.knime.features.ensembles.feature.group" version="5.3.0.v202401171201"/>
+<unit id="org.knime.features.expressions.feature.group" version="5.3.0.v202406200655"/>
+<unit id="org.knime.features.ext.azure.feature.group" version="5.3.0.v202406101137"/>
+<unit id="org.knime.features.ext.box.filehandling.feature.group" version="5.3.0.v202406281032"/>
+<unit id="org.knime.features.ext.chem.tools.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.dsread.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.ext.exttool.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.h2o.feature.group" version="5.3.0.v202406101333"/>
+<unit id="org.knime.features.ext.h2o.mojo.feature.group" version="5.3.0.v202406061052"/>
+<unit id="org.knime.features.ext.h2o.mojo.spark.feature.group" version="5.3.0.v202406181441"/>
+<unit id="org.knime.features.ext.h2o.spark.feature.group" version="5.3.0.v202406181500"/>
+<unit id="org.knime.features.ext.itemset.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.jep.feature.group" version="5.3.0.v202404241821"/>
+<unit id="org.knime.features.ext.libsvm.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.ext.lucene.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.mdf.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.office365.filehandling.feature.group" version="5.3.0.v202405271337"/>
+<unit id="org.knime.features.ext.osm.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.parso.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.ext.perl.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.poi.feature.group" version="5.3.0.v202407021050"/>
+<unit id="org.knime.features.ext.powerbi.feature.group" version="5.3.0.v202406110905"/>
+<unit id="org.knime.features.ext.r.bin.feature.group" version="3.4.2.v202312101440"/>
+<unit id="org.knime.features.ext.textprocessing.feature.group" version="5.3.0.v202406171307"/>
+<unit id="org.knime.features.exttool.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.ext.twitter.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.ext.webservice.client.feature.group" version="5.3.0.v202406041504"/>
+<unit id="org.knime.features.ext.weka_3.7.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.filehandling.core.testing.feature.group" version="5.3.0.v202405171012"/>
+<unit id="org.knime.features.google.api.feature.group" version="5.3.0.v202407021505"/>
+<unit id="org.knime.features.google.cloud.storage.feature.group" version="5.3.0.v202407021505"/>
+<unit id="org.knime.features.javasnippet.feature.group" version="5.3.0.v202406141017"/>
+<unit id="org.knime.features.jpmml.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.json.feature.group" version="5.3.0.v202406280759"/>
+<unit id="org.knime.features.js.plotly.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.js.quickforms.feature.group" version="5.3.0.v202407031317"/>
+<unit id="org.knime.features.js.views.feature.group" version="5.3.0.v202402011404"/>
+<unit id="org.knime.features.js.views.labs.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.kafka.feature.group" version="5.3.0.v202405091133"/>
+<unit id="org.knime.features.mli.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.mongodb.feature.group" version="5.3.0.v202406181346"/>
+<unit id="org.knime.features.neighborgram.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.network.distmatrix.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.network.feature.group" version="5.3.0.v202406101322"/>
+<unit id="org.knime.features.optimization.feature.group" version="5.3.0.v202405141627"/>
+<unit id="org.knime.features.personalproductivity.feature.group" version="5.3.0.v202406201515"/>
+<unit id="org.knime.features.python2.feature.group" version="5.3.0.v202406101325"/>
+<unit id="org.knime.features.python3.nodes.feature.group" version="5.3.0.v202407031038"/>
+<unit id="org.knime.features.quickform.legacy.feature.group" version="5.3.0.v202312081534"/>
+<unit id="org.knime.features.reporting.designer.feature.group" version="5.3.0.v202406101252"/>
+<unit id="org.knime.features.rest.feature.group" version="5.3.0.v202406101540"/>
+<unit id="org.knime.features.r.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.salesforce.feature.group" version="5.3.0.v202406211131"/>
+<unit id="org.knime.features.scm.git.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.semanticweb.feature.group" version="5.3.0.v202407021304"/>
+<unit id="org.knime.features.stats2.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.stats.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.testing.application.feature.group" version="5.3.0.v202406191859"/>
+<unit id="org.knime.features.timeseries.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.ui.feature.group" version="5.3.0.v202407050847"/>
+<unit id="org.knime.features.virtual.feature.group" version="5.3.0.v202405150054"/>
+<unit id="org.knime.features.weaksupervision.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.webanalytics.feature.group" version="5.3.0.v202406181352"/>
+<unit id="org.knime.features.xgboost.feature.group" version="5.3.0.v202401171201"/>
+<unit id="org.knime.features.xml.feature.group" version="5.3.0.v202402291229"/>
+<repository location="https://update.knime.com/analytics-platform/5.3"/>
 </location>
 </locations>
 <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
@@ -129,10 +118,25 @@
 -Dsun.java2d.d3d=false
 -Dosgi.classloader.lock=classname
 -XX:+UnlockDiagnosticVMOptions
--XX:+UnsyncloadClass
 -ea
 -Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
 -Dorg.eclipse.swt.internal.gtk.useCairo=false
--Dorg.eclipse.swt.browser.IEVersion=11001</vmArgs>
+-Dorg.eclipse.swt.browser.IEVersion=11001
+-Dsun.awt.noerasebackground=true
+-Dsun.net.client.defaultReadTimeout=0
+-Dorg.eclipse.swt.internal.gtk.disablePrinting
+--add-opens=java.base/java.lang=ALL-UNNAMED
+--add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+--add-opens=java.base/java.net=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.nio.channels=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.base/java.util.regex=ALL-UNNAMED
+--add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED
+--add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED
+--add-opens=java.base/sun.nio.ch=ALL-UNNAMED
+--add-opens=java.base/sun.nio=ALL-UNNAMED
+--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED</vmArgs>
 </launcherArgs>
 </target>
