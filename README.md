@@ -52,13 +52,15 @@ is also noted in the table below.
 
 | KNIME Analytics Platform Release Line | Branch              | Eclipse Version                                                                 |
 |---------------------------------------| ------------------- | ------------------------------------------------------------------------------- |
-| __Nightly (unreleased)__              | `master`            | [__2024-03__](https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-rcp-and-rap-developers)     |
-| 5.4.x                                 | `releases/2024-12`  | [2024-03](https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-rcp-and-rap-developers)         |
-| 5.3.x                                 | `releases/2024-06`  | [2024-03](https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-rcp-and-rap-developers)         |
+| __Nightly (unreleased)__              | `master`            | [__2024-03__*](https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-rcp-and-rap-developers)     |
+| 5.4.x                                 | `releases/2024-12`  | [2024-03*](https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-rcp-and-rap-developers)         |
+| 5.3.x                                 | `releases/2024-06`  | [2024-03*](https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-rcp-and-rap-developers)         |
 | 5.2.x                                 | `releases/2023-12`  | [2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)         |
 | 5.1.x                                 | `releases/2023-07`  | [2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers)         |
 | 4.7.x                                 | `releases/2022-12`  | [2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-rcp-and-rap-developers)         |
 | 4.6.x                                 | `releases/2022-06`  | [2021-03](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-rcp-and-rap-developers)         |
+
+(*) User on macOS: Note a limitation on the Java version, see [Install Java](#install-java) below.
 
 ## SDK Setup
 
@@ -66,8 +68,10 @@ This section provides step-by-step instructions on how to set up the KNIME Analy
 
 __Note:__ In case you are on Apple Silicon (M1, M2, etc.) read the section "Apple Silicon Support" below.
 
-#### 1. Install Java
-* KNIME Analytics Platform uses Java 17 since version 4.6. In case you haven't installed the [OpenJDK 17](https://adoptium.net/), please download and install it, and then restart your computer.
+#### 1. Install Java <a id="install-java"></a>
+* KNIME Analytics Platform uses Java 17 since version 4.6. In case you haven't installed the [OpenJDK 17](https://adoptium.net/), download and install it. 
+Users on macOS should not install a Java version newer than 17.0.9 due to a [UI bug in Eclipse](https://github.com/eclipse-platform/eclipse.platform.swt/issues/1012)
+that occurs with newer versions. This bug will be fixed in Eclipse 2024-06+, but the fix is not yet in use as mentioned above.
   * for KNIME Analytics Platform 4.4 and 4.5, use [OpenJDK 11](https://adoptium.net/).
   * for KNIME Analytics Platform up to 4.3, use [OpenJDK 8](https://adoptium.net/).
 
