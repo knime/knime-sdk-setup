@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+util<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 <target name="KNIME Analytics Platform (5.3) - with all extensions" sequenceNumber="32">
 <locations>
@@ -103,6 +103,7 @@
 <unit id="org.knime.features.stats.feature.group" version="5.3.0.v202312081535"/>
 <unit id="org.knime.features.testing.application.feature.group" version="5.3.0.v202406191859"/>
 <unit id="org.knime.features.timeseries.feature.group" version="5.3.0.v202312081535"/>
+<unit id="org.knime.features.util.feature.group" version="5.3.0.v202312081535"/>
 <unit id="org.knime.features.ui.feature.group" version="5.3.0.v202407050847"/>
 <unit id="org.knime.features.virtual.feature.group" version="5.3.0.v202405150054"/>
 <unit id="org.knime.features.weaksupervision.feature.group" version="5.3.0.v202312081535"/>
