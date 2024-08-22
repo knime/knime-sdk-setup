@@ -1,7 +1,7 @@
 #!groovy
 def BN = (BRANCH_NAME == 'master' || BRANCH_NAME.startsWith('releases/')) ? BRANCH_NAME : 'releases/2024-12'
 
-library "knime-pipeline@$BN"
+library "knime-pipeline@todo/DEVOPS-2151-workflow-tests-default-mac-os-arm"
 
 properties([
 	buildDiscarder(logRotator(numToKeepStr: '5')),
