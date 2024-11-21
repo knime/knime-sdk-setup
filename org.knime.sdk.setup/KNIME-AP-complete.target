@@ -13,6 +13,7 @@
 <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.arima.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.audio.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.expressions.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.base.pmml2.feature.group" version="0.0.0"/>
