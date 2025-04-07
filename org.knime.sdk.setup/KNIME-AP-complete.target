@@ -93,6 +93,7 @@
 <unit id="org.knime.features.filehandling.core.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.filehandling.core.testing.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.gateway.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.geospatial.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.google.api.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.google.cloud.storage.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
