@@ -80,7 +80,6 @@
 <unit id="org.knime.features.ext.poi.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.powerbi.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.r.bin.feature.group" version="0.0.0"/>
-<unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.ext.textprocessing.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.exttool.feature.group" version="0.0.0"/>
