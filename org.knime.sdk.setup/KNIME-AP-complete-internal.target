@@ -110,6 +110,7 @@
 <unit id="org.knime.features.neighborgram.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.network.distmatrix.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.network.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.node.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.orc.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.parquet.feature.group" version="0.0.0"/>

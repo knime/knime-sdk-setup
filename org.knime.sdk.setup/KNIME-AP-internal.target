@@ -19,6 +19,7 @@
 <unit id="org.knime.features.javasnippet.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.json.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.node.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.personalproductivity.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.product.feature.group" version="0.0.0"/>
 <unit id="org.knime.features.stats.feature.group" version="0.0.0"/>
