@@ -9,7 +9,7 @@ properties([
 ])
 
 try {
-	node('maven && large && java17') {
+	node('maven && large && java21') {
 		stage('Checkout Sources') {
 			env.lastStage = env.STAGE_NAME
 			checkout scm
@@ -23,6 +23,7 @@ try {
                 TEMP_DEST="$DEST.$$"
                 mkdir -p "$TEMP_DEST"
                 cp org.knime.sdk.setup/API-Baseline.target "$TEMP_DEST/"
+
                 /opt/p2-director/p2-director -data "$TEMP_DEST" -application org.eclipse.pde.api.tools.apiAnalyzer \\
                     -project org.knime.sdk.setup -baseline "$TEMP_DEST/API-Baseline.target" -vmargs -Xmx2048m
 
