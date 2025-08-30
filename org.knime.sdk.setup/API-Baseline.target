@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="API Baseline for KNIME Analytics Platform 5.5" sequenceNumber="34">
+<target name="API Baseline for KNIME Analytics Platform 5.6" sequenceNumber="35">
     <locations>
         <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-            <repository location="https://update.knime.com/analytics-platform/5.5/5.5.0"/>
+            <repository location="https://update.knime.com/analytics-platform/5.6/5.6.0"/>
 
             <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
             <unit id="com.knime.features.gateway.executor.feature.group" version="0.0.0"/>

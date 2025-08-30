@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="34">
+<target name="KNIME Analytics Platform (nightly build) - with all extensions" sequenceNumber="35">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
@@ -138,6 +138,7 @@
 <unit id="org.knime.targetPlatform.feature.group" version="0.0.0"/>
 <unit id="org.knime.testing" version="0.0.0"/>
 <unit id="org.knime.core.ui.testing" version="0.0.0"/>
+<unit id="org.knime.core.columnar.testing" version="0.0.0"/>
 <repository location="https://jenkins.devops.knime.com/p2-browse/knime/composites/master"/>
 </location>
 </locations>
