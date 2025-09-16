@@ -85,8 +85,6 @@
             <unit id="org.knime.features.ext.powerbi.feature.group" version="0.0.0"/>
             <unit id="org.knime.features.ext.r.bin.feature.group" version="0.0.0"/>
             <unit id="org.knime.features.ext.svg.feature.group" version="0.0.0"/>
-            <unit id="org.knime.features.ext.tableau.feature.group" version="0.0.0"/>
-            <unit id="org.knime.features.ext.tableau.hyper.feature.group" version="0.0.0"/>
             <unit id="org.knime.features.ext.tableau.hyperapi.feature.group" version="0.0.0"/>
             <unit id="org.knime.features.ext.textprocessing.feature.group" version="0.0.0"/>
             <unit id="org.knime.features.ext.twitter.feature.group" version="0.0.0"/>
