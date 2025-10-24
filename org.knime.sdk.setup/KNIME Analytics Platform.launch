@@ -41,6 +41,7 @@
 -Dcomm.disable_dynamic_service=true&#10;
 -Djdk.http.auth.tunneling.disabledSchemes=&quot;&quot;&#10;
 -Dvisualvm.display.name=KNIME-SDK%PID&#10;
+-Djava.security.manager=disallow&#10;
 -Xmx2048m&#10;
 --add-opens=java.base/java.lang=ALL-UNNAMED&#10;
 --add-opens=java.base/java.lang.invoke=ALL-UNNAMED&#10;
