@@ -40,7 +40,7 @@ This section provides step by step instructions on how to set up the KNIME Analy
 #### 3. Install Git and Git LFS
 If you plan to use the [Eclipse Git integration (EGit)](https://www.eclipse.org/egit/), you may skip this step.
 
-* __Git__: If you want to use Git manually (from the command line or using a [Git client](https://git-scm.com/downloads/guis/)), Git can be downloaded from [here](https://git-scm.com/downloads). 
+* __Git__: If you want to use Git manually (from the command line or using a [Git client](https://git-scm.com/downloads/guis/)), Git can be downloaded from [here](https://git-scm.com/downloads).
 Note: For Linux, Git should already be part of most distributions and therefore does not need to be installed.
 
 * __Git LFS__: Git LFS should already be part of most Git installations. In order to check, try running the following command: ``git lfs``. If the command cannot be found by the system, install Git LFS from [here](https://git-lfs.github.com/).
@@ -49,9 +49,9 @@ Note: For Linux, Git should already be part of most distributions and therefore 
 * Start Eclipse.
 * Configure the default JRE used by Eclipse to be the one you installed earlier. See the [Eclipse Help](https://help.eclipse.org/2021-03/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-add_new_jre.htm&cp%3D1_3_5_1) how to perform this task.
 * Clone this repository (``knime-sdk-setup``) and import it into your Eclipse workspace. To do this using EGit, go to ``File → Import → Git → Projects from Git File → Clone URI``. Enter: [https://github.com/knime/knime-sdk-setup](https://github.com/knime/knime-sdk-setup) as URI and proceed. Now,  select the branches you want to clone. Select all branches starting with ``releases/`` and the ``master`` branch. Next, select the initial branch you want to work with (e.g. ``master``, see ``Target Platform`` section above). Finally, Choose ``Import existing Eclipse projects``, select all projects and click __Finish__.
-* Double click the target platform definition file (``.target`` files In the imported ``org.knime.sdk.setup`` project) that you want to use for development (the difference between the files is explained in the ``Target Platform`` section above). If in doubt, use ``KNIME-AP-complete.target``.  
+* Double click the target platform definition file (``.target`` files In the imported ``org.knime.sdk.setup`` project) that you want to use for development (the difference between the files is explained in the ``Target Platform`` section above). If in doubt, use ``KNIME-AP-complete.target``.
 NOTE: Resolving the target platform the first time takes a while as all dependencies need to be downloaded. You can monitor the progress at the bottom right corner of your Eclipse application. Wait until the target platform is resolved by Eclipse before continuing with the next step.
-* Now click __Set as Active Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.  
+* Now click __Set as Active Target Platform__ (upper-right corner) and wait until Eclipse has resolved and activated the target platform.
 NOTE: Setting the target platform definition may also take a while.
 
 #### 5. Configure API Baseline
@@ -84,7 +84,7 @@ Do this by double clicking the ``.target`` file you want to modify (located in `
 
 This section describes how to add KNIME Extensions to your development setup by importing KNIME Analytics Platform source code projects into your Eclipse workspace. This is necessary if you plan to modify KNIME Analytics Platform source code. If that is not the case and you want to add extensions, see the ``Adding Extensions to the Target Definition`` section.
 
-All publicly available KNIME Analytics Platform source code can be found on the [KNIME GitHub page](https://github.com/knime). To import, simply clone the repository you want (e.g. [https://github.com/knime/knime-core](https://github.com/knime/knime-core) then go to ``File → Import → General → Existing Projects into Workspace``. From the dialog that opens, select the folder of the Git repository you just cloned. This displays a list of all projects that can be imported, in the middle of the dialog., Now select the projects you want to import (if in doubt choose __Select All__) and then click __Finish__. The projects will now appear in the Package Explorer of Eclipse.
+All publicly available KNIME Analytics Platform source code can be found on the [KNIME GitHub page](https://github.com/knime). To import, simply clone the repository you want (e.g. [https://github.com/knime/knime-core](https://github.com/knime/knime-core) then go to ``File → Import → General → Existing Projects into Workspace``. From the dialog that opens, select the folder of the Git repository you just cloned. Make sure to select ``options → Search for nested projects``. This displays a list of all projects that can be imported, in the middle of the dialog. Now select the projects you want to import (if in doubt choose __Select All__) and then click __Finish__. The projects will now appear in the Package Explorer of Eclipse.
 
 IMPORTANT: All of the plug-ins available in your workspace take precedence over the plug-ins in the target platform. E.g. if you imported ``knime-core`` into your workspace and also added ``knime-core`` to the target platform definition, the version from the target platform is ignored. This is especially important to keep in mind if the source code of the plug-in in your workspace differs from the source code obtained via the target platform definition (i.e. the versions differ).
 
@@ -107,7 +107,7 @@ Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 
 * Errors encountered while setting or modifying the target platform could result from old version numbers cached by Eclipse. This can be fixed by making sure that all plug-in versions specified in the target definition file are set to ``"0.0.0"``. To do this, double click on the ``.target`` file you want to use which opens the Target Definition view of Eclipse. At the bottom, click on the tab __Source__ which opens the raw file in the Eclipse editor. There, make sure all ``version=`` properties are set to ``"0.0.0"`` (including 	quotation marks).
 
-* If you encounter errors when trying to launch KNIME Analytics Platform from within Eclipse, you can try the following to resolve the error/s: 
+* If you encounter errors when trying to launch KNIME Analytics Platform from within Eclipse, you can try the following to resolve the error/s:
     1. In Eclipse select `Run → Run Configurations...` ( or `Debug Configurations...`)
     2. Select the Run/Debug configuration you want to launch
     3. Select the `Configuration` tab
@@ -128,4 +128,4 @@ Set the API Baseline in Eclipse as described in the ``SDK Setup`` section.
 Do you have questions regarding the development of KNIME Analytics Platform? Reach out to us in our [Forum](https://forum.knime.com/c/knime-development).
 
 ### Be Part of the Community
-If you have developed an extension of general interest and you want to make it available to the KNIME Community, we are happy to support you! Contact us via our [Community Contributions Website](https://www.knime.com/community). 
+If you have developed an extension of general interest and you want to make it available to the KNIME Community, we are happy to support you! Contact us via our [Community Contributions Website](https://www.knime.com/community).
