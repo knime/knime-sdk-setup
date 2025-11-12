@@ -23,6 +23,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-server&#10;
 -Dsun.java2d.d3d=false&#10;
+-Dsun.java2d.metal=false&#10;
 -Dosgi.classloader.lock=classname&#10;
 -XX:+UnlockDiagnosticVMOptions&#10;
 -Dknime.enable.fastload=true&#10;
